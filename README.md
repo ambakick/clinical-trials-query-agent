@@ -5,6 +5,85 @@ Backend service that converts natural-language clinical trial questions into str
 Demo video: [https://youtu.be/YLnxIQ7P8ck](https://youtu.be/YLnxIQ7P8ck)
 
 Real example outputs produced by the backend are available in real_outputs folder in the repo
+
+## Architecture
+
+```
+                            POST /api/v1/query
+                                    |
+                                    v
+                          +-------------------+
+                          |  Request Validation|
+                          |  (Pydantic v2)     |
+                          +---------+---------+
+                                    |
+                          +---------v---------+
+                          |   LLM Planner     |     "LLM reasons,
+                          |   (gpt-4.1)       |      compiler constrains,
+                          |                   |      code executes."
+                          |  Emits semantic   |
+                          |  AnalysisPlan     |
+                          +---------+---------+
+                                    |
+                     +--------------v--------------+
+                     |    Deterministic Compiler    |
+                     |                              |
+                     |  AnalysisPlan -> FetchPlan   |
+                     |  - owns CT.gov API semantics |
+                     |  - broad vs exact search     |
+                     |  - field projection          |
+                     |  - filter.advanced clauses   |
+                     +--------------+--------------+
+                                    |
+                     +--------------v--------------+
+                     |    CT.gov Client             |
+                     |                              |
+                     |  - async HTTP (httpx)        |
+                     |  - pagination                |
+                     |  - rate limiter (40 req/min) |
+                     |  - retry w/ backoff          |
+                     |  - L3 response cache         |
+                     +--------------+--------------+
+                                    |
+                     +--------------v--------------+
+                     |  Canonical Normalization     |
+                     |                              |
+                     |  Raw JSON -> StudyRecord,    |
+                     |  ConditionFact, SponsorFact, |
+                     |  InterventionFact,           |
+                     |  LocationFact, ProvenanceFact|
+                     +--------------+--------------+
+                                    |
+                     +--------------v--------------+
+                     |   Processor Registry         |
+                     |                              |
+                     |  time_trend   -> TimeTrend   |
+                     |  distribution -> Distribution|
+                     |  comparison   -> Comparison  |
+                     |  geographic   -> Geographic  |
+                     |  network      -> Network     |
+                     |  ranking      -> Ranking     |
+                     |  scatter      -> Scatter     |
+                     +--------------+--------------+
+                                    |
+                     +--------------v--------------+
+                     |  Visualization Builder       |
+                     |  + Citation Engine           |
+                     |                              |
+                     |  -> VisualizationSpec        |
+                     |  -> ResponseMetadata         |
+                     +--------------+--------------+
+                                    |
+                                    v
+                            QueryResponse JSON
+
+
+Cache layers:
+  L1  AnalysisPlan          (30 min TTL, keyed by request + prompt version)
+  L3  Raw CT.gov responses  (1 hr TTL, keyed by params + dataTimestamp)
+  L5  Final QueryResponse   (15 min TTL, keyed by request + dataTimestamp)
+```
+
 ## Stack
 
 - Python 3.11+
