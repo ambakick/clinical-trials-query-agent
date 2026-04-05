@@ -1,0 +1,27 @@
+{
+  "visualization": {
+    "type": "grouped_bar_chart",
+    "title": "Comparison by Phase",
+    "encoding": {
+      "x": { "field": "category", "type": "nominal", "title": "Phase" },
+      "y": { "field": "trial_count", "type": "quantitative", "title": "Trials" },
+      "series": { "field": "series", "type": "nominal", "title": "Cohort" }
+    },
+    "data": [
+      { "category": "Phase 1", "series": "Pembrolizumab", "trial_count": 4, "citations": [] },
+      { "category": "Phase 2", "series": "Nivolumab", "trial_count": 6, "citations": [] }
+    ]
+  },
+  "meta": {
+    "query_interpretation": "Compare pembrolizumab vs nivolumab by phase",
+    "filters_applied": {},
+    "match_mode": "exact",
+    "total_studies_matched": 10,
+    "studies_analyzed": 10,
+    "data_source": "clinicaltrials.gov",
+    "api_version": "2.0.5",
+    "data_timestamp": "2026-04-03T09:00:05",
+    "warnings": []
+  }
+}
+

@@ -1,0 +1,2620 @@
+{
+    "visualization": {
+        "type": "bar_chart",
+        "title": "Trials by Country",
+        "description": null,
+        "encoding": {
+            "x": {
+                "field": "country",
+                "type": "nominal",
+                "title": "Country",
+                "sort": null,
+                "format": null
+            },
+            "y": {
+                "field": "trial_count",
+                "type": "quantitative",
+                "title": "Trials",
+                "sort": null,
+                "format": null
+            }
+        },
+        "data": [
+            {
+                "country": "United States",
+                "trial_count": 618,
+                "citations": [
+                    {
+                        "nct_id": "NCT06140537",
+                        "title": "Efficacy and Mechanisms of Dapagliflozin in Promoting Kidney Function and Cardiovascular Health in Kidney Transplant Recipients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United States",
+                        "excerpt": "locations.country = United States"
+                    },
+                    {
+                        "nct_id": "NCT06841796",
+                        "title": "The YMCA Healthy Lifestyle Program for Prediabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United States",
+                        "excerpt": "locations.country = United States"
+                    },
+                    {
+                        "nct_id": "NCT05799222",
+                        "title": "Medically Intensive Nutrition Therapy Program for Obesity and Diabetes in a Low-income Population",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United States",
+                        "excerpt": "locations.country = United States"
+                    },
+                    {
+                        "nct_id": "NCT06609356",
+                        "title": "Cardiometabolic Benefit of Reducing Iatrogenic Hyperinsulinemia Using Insulin Adjunctive Therapy in Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United States",
+                        "excerpt": "locations.country = United States"
+                    },
+                    {
+                        "nct_id": "NCT07284901",
+                        "title": "Efficacy and Safety of KAI-9531 Administered Once Weekly in Participants Living With Obesity or Overweight and Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United States",
+                        "excerpt": "locations.country = United States"
+                    }
+                ]
+            },
+            {
+                "country": "China",
+                "trial_count": 156,
+                "citations": [
+                    {
+                        "nct_id": "NCT04096794",
+                        "title": "Chinese Alliance for Type 1 Diabetes Multi-center Collaborative Research",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "China",
+                        "excerpt": "locations.country = China"
+                    },
+                    {
+                        "nct_id": "NCT06081231",
+                        "title": "Open-Source Artificial Pancreas System Use Among People With Type 1 Diabetes Mellitus in China",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "China",
+                        "excerpt": "locations.country = China"
+                    },
+                    {
+                        "nct_id": "NCT06585072",
+                        "title": "Pancreatic Cancer and Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "China",
+                        "excerpt": "locations.country = China"
+                    },
+                    {
+                        "nct_id": "NCT07083154",
+                        "title": "GLP-1/GCG Dual Agonist in Type 2 Diabetes With Early Dementia (LIGHT-COG Study)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "China",
+                        "excerpt": "locations.country = China"
+                    },
+                    {
+                        "nct_id": "NCT07275788",
+                        "title": "A Study of REGEND003 on Patients With Type 2 Diabetes Mellitus (T2DM) and Chronic Kidney Disease (CKD)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "China",
+                        "excerpt": "locations.country = China"
+                    }
+                ]
+            },
+            {
+                "country": "Canada",
+                "trial_count": 110,
+                "citations": [
+                    {
+                        "nct_id": "NCT04621396",
+                        "title": "The Next Generation Longitudinal Birth Cohort Diabetes Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Canada",
+                        "excerpt": "locations.country = Canada"
+                    },
+                    {
+                        "nct_id": "NCT07348432",
+                        "title": "The diabEAT Study: Insulin dElivery Technologies And eaTing Behaviours in People With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Canada",
+                        "excerpt": "locations.country = Canada"
+                    },
+                    {
+                        "nct_id": "NCT06599047",
+                        "title": "Regional Adipose Tissue Characteristics in Type II Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Canada",
+                        "excerpt": "locations.country = Canada"
+                    },
+                    {
+                        "nct_id": "NCT06158503",
+                        "title": "Glycemic Control and Osteohealth in Adults Living With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Canada",
+                        "excerpt": "locations.country = Canada"
+                    },
+                    {
+                        "nct_id": "NCT06192251",
+                        "title": "Complete Lifestyle Medicine Intervention Program",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Canada",
+                        "excerpt": "locations.country = Canada"
+                    }
+                ]
+            },
+            {
+                "country": "France",
+                "trial_count": 84,
+                "citations": [
+                    {
+                        "nct_id": "NCT03913962",
+                        "title": "Health and Exercise Response in Children With Chronic and Auto-immune Pathologies",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "France",
+                        "excerpt": "locations.country = France"
+                    },
+                    {
+                        "nct_id": "NCT07018180",
+                        "title": "Interventional Clinical Trial Evaluating COVER PATCH CAPTEUR PROTECT Support Solutions for Continuous Glucose Monitoring Sensors in Patients With Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "France",
+                        "excerpt": "locations.country = France"
+                    },
+                    {
+                        "nct_id": "NCT06630182",
+                        "title": "Evaluation of the Impact of Psychological Profile on Diabetic Foot Wound Healing. Prospective, Monocentric Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "France",
+                        "excerpt": "locations.country = France"
+                    },
+                    {
+                        "nct_id": "NCT06066801",
+                        "title": "Bedside Bone Biopsy in Diabetic Foot Osteomyelitis",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "France",
+                        "excerpt": "locations.country = France"
+                    },
+                    {
+                        "nct_id": "NCT07048795",
+                        "title": "Impact of the Mylife CamAPS FX System With the DEXCOM G6 Sensor on T1D Patients in France",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "France",
+                        "excerpt": "locations.country = France"
+                    }
+                ]
+            },
+            {
+                "country": "United Kingdom",
+                "trial_count": 79,
+                "citations": [
+                    {
+                        "nct_id": "NCT06545227",
+                        "title": "Early Versus Late Monitoring Among Pregnant Women With a History of Gestational Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Kingdom",
+                        "excerpt": "locations.country = United Kingdom"
+                    },
+                    {
+                        "nct_id": "NCT02169518",
+                        "title": "Paraoxonase and HDL Qualities in Glycaemia and Inflammation",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Kingdom",
+                        "excerpt": "locations.country = United Kingdom"
+                    },
+                    {
+                        "nct_id": "NCT06385626",
+                        "title": "The Effects of Raspberry Leaf Tea on Blood Glucose Control",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Kingdom",
+                        "excerpt": "locations.country = United Kingdom"
+                    },
+                    {
+                        "nct_id": "NCT06711718",
+                        "title": "Diabetes in Primary Care - Improving Classification",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Kingdom",
+                        "excerpt": "locations.country = United Kingdom"
+                    },
+                    {
+                        "nct_id": "NCT06739135",
+                        "title": "Driving with Neuropathy",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Kingdom",
+                        "excerpt": "locations.country = United Kingdom"
+                    }
+                ]
+            },
+            {
+                "country": "Germany",
+                "trial_count": 66,
+                "citations": [
+                    {
+                        "nct_id": "NCT06993792",
+                        "title": "A Master Protocol for Orforglipron (LY3502970) in Participants With Obesity or Overweight With and Without Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Germany",
+                        "excerpt": "locations.country = Germany"
+                    },
+                    {
+                        "nct_id": "NCT05704491",
+                        "title": "AI Screening for Diabetic Retinopathy",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Germany",
+                        "excerpt": "locations.country = Germany"
+                    },
+                    {
+                        "nct_id": "NCT07076199",
+                        "title": "A Research Study to See How a Weekly Insulin, Insulin Icodec, Helps in Reducing the Blood Sugar Compared to Daily Insulin Glargine, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Germany",
+                        "excerpt": "locations.country = Germany"
+                    },
+                    {
+                        "nct_id": "NCT07270731",
+                        "title": "A Research Study of a New Medicine, NNC9733-0001, in Healthy Participants and Participants With Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Germany",
+                        "excerpt": "locations.country = Germany"
+                    },
+                    {
+                        "nct_id": "NCT06413069",
+                        "title": "Effects of Almonds in Glucose-intolerant Adults (AGAMEMNON)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Germany",
+                        "excerpt": "locations.country = Germany"
+                    }
+                ]
+            },
+            {
+                "country": "Denmark",
+                "trial_count": 55,
+                "citations": [
+                    {
+                        "nct_id": "NCT06185296",
+                        "title": "The Intelligent Diabetes TelemonitoRing Using Decision Support to Treat Patients on Insulin Therapy",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Denmark",
+                        "excerpt": "locations.country = Denmark"
+                    },
+                    {
+                        "nct_id": "NCT05873322",
+                        "title": "Glucose Intolerance and Diabetes Related to Treatment With Steroids and PEG- Asparaginase in Children and Adolescents With ALL and Lymphoma",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Denmark",
+                        "excerpt": "locations.country = Denmark"
+                    },
+                    {
+                        "nct_id": "NCT07375797",
+                        "title": "Fecal Microbiota Transplantation Intervention on Microbiota Composition and Insulin Sensitivity in Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Denmark",
+                        "excerpt": "locations.country = Denmark"
+                    },
+                    {
+                        "nct_id": "NCT06936280",
+                        "title": "Type 1 Diabetes and Diabetes Distress",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Denmark",
+                        "excerpt": "locations.country = Denmark"
+                    },
+                    {
+                        "nct_id": "NCT06152588",
+                        "title": "Restricted Eating Time in the Treatment of Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Denmark",
+                        "excerpt": "locations.country = Denmark"
+                    }
+                ]
+            },
+            {
+                "country": "Italy",
+                "trial_count": 54,
+                "citations": [
+                    {
+                        "nct_id": "NCT07431359",
+                        "title": "Evaluation of Dietary Knowledge and the Habit of Using the Mediterranean Diet in Patients With Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Italy",
+                        "excerpt": "locations.country = Italy"
+                    },
+                    {
+                        "nct_id": "NCT06801769",
+                        "title": "Study for the Identification of a Score to Assess Intrapancreatic Fat Through Eco-Elastography and Its Correlation With Metabolic Syndrome and Insulin-Secreting Cells.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Italy",
+                        "excerpt": "locations.country = Italy"
+                    },
+                    {
+                        "nct_id": "NCT06864546",
+                        "title": "A Participatory Approach to Support Glucose Tolerance Tracking in Real-Life of Patients With Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Italy",
+                        "excerpt": "locations.country = Italy"
+                    },
+                    {
+                        "nct_id": "NCT03463564",
+                        "title": "Insulin Pump vs Multiple Daily Injections of Insulin and Glyco-metabolic Control in Type 1 Diabetic Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Italy",
+                        "excerpt": "locations.country = Italy"
+                    },
+                    {
+                        "nct_id": "NCT07434154",
+                        "title": "Evaluation of Oxidative Stress: Comparison Between Type 1 Diabetes Mellitus and Latent Autoimmune Diabetes in Adults",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Italy",
+                        "excerpt": "locations.country = Italy"
+                    }
+                ]
+            },
+            {
+                "country": "Sweden",
+                "trial_count": 43,
+                "citations": [
+                    {
+                        "nct_id": "NCT07079189",
+                        "title": "Effect of the Digital Livsstilsverktyget in Conjunction With a Large Language Model on Glycemic Control in Patients With Type 2 Diabetes.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Sweden",
+                        "excerpt": "locations.country = Sweden"
+                    },
+                    {
+                        "nct_id": "NCT05501483",
+                        "title": "Adipose Tissue Heterogeneity and Its Link to Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Sweden",
+                        "excerpt": "locations.country = Sweden"
+                    },
+                    {
+                        "nct_id": "NCT06291766",
+                        "title": "Gestational Diabetes After Gastric Bypass Surgery",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Sweden",
+                        "excerpt": "locations.country = Sweden"
+                    },
+                    {
+                        "nct_id": "NCT05277532",
+                        "title": "Effect of Circadian Rhythm and Physical Exercise in Overweight Type 1 Diabetes Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Sweden",
+                        "excerpt": "locations.country = Sweden"
+                    },
+                    {
+                        "nct_id": "NCT05112588",
+                        "title": "Gestational Diabetes - PrEvention of PostPartum Diabetes Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Sweden",
+                        "excerpt": "locations.country = Sweden"
+                    }
+                ]
+            },
+            {
+                "country": "South Korea",
+                "trial_count": 41,
+                "citations": [
+                    {
+                        "nct_id": "NCT05365425",
+                        "title": "Choline Fenofibrate and Carotid Atherosclerosis in Patients With Type 2 Diabetes and Combined Dyslipidemia",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "South Korea",
+                        "excerpt": "locations.country = South Korea"
+                    },
+                    {
+                        "nct_id": "NCT06647888",
+                        "title": "Evaluation of Enavogliflozin's Efficacy and Safety in Type II Diabetes With Hypertension or Dyslipidemia",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "South Korea",
+                        "excerpt": "locations.country = South Korea"
+                    },
+                    {
+                        "nct_id": "NCT07045623",
+                        "title": "Comparison of Intensive Versus Standard Care & Education for Dyslipidemia in Hypertension and Diabetes Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "South Korea",
+                        "excerpt": "locations.country = South Korea"
+                    },
+                    {
+                        "nct_id": "NCT06989723",
+                        "title": "Pioglitazone and Empagliflozin for Fatty Liver Disease in Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "South Korea",
+                        "excerpt": "locations.country = South Korea"
+                    },
+                    {
+                        "nct_id": "NCT06402747",
+                        "title": "Clopidogrel Versus Cilostazol on Vessels",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "South Korea",
+                        "excerpt": "locations.country = South Korea"
+                    }
+                ]
+            },
+            {
+                "country": "Spain",
+                "trial_count": 40,
+                "citations": [
+                    {
+                        "nct_id": "NCT07309094",
+                        "title": "Clinical, Morphometric and Biochemical Effects on Adiposopathy Associated With the Use of GLP-1RA in CKD",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Spain",
+                        "excerpt": "locations.country = Spain"
+                    },
+                    {
+                        "nct_id": "NCT05885659",
+                        "title": "Smoking Cessation Program for Adults With Type 2 Diabetes Mellitus (DiMe-SALUD2 Project)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Spain",
+                        "excerpt": "locations.country = Spain"
+                    },
+                    {
+                        "nct_id": "NCT06912555",
+                        "title": "Effect of Low-calorie Diets With Different Macronutrient Composition and Macronutrient Distribution in Shift Workers With Prediabetes or Type 2 Diabetes and Overweight or Obesity.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Spain",
+                        "excerpt": "locations.country = Spain"
+                    },
+                    {
+                        "nct_id": "NCT06775028",
+                        "title": "Integrated Approach in Frail Older People with Atrial Fibrillation",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Spain",
+                        "excerpt": "locations.country = Spain"
+                    },
+                    {
+                        "nct_id": "NCT06338215",
+                        "title": "Advice of Moderate Drinking Pattern Versus Advice on Abstention on Major Disease and Mortality",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Spain",
+                        "excerpt": "locations.country = Spain"
+                    }
+                ]
+            },
+            {
+                "country": "Netherlands",
+                "trial_count": 32,
+                "citations": [
+                    {
+                        "nct_id": "NCT06092476",
+                        "title": "Trial to Evaluate Efficacy+Safety of Revita DMR Treatment Paradigm 1 and Retreatment in Type 2 Diabetes Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Netherlands",
+                        "excerpt": "locations.country = Netherlands"
+                    },
+                    {
+                        "nct_id": "NCT04786262",
+                        "title": "A Safety, Tolerability, and Efficacy Study of VX-880 in Participants With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Netherlands",
+                        "excerpt": "locations.country = Netherlands"
+                    },
+                    {
+                        "nct_id": "NCT07083882",
+                        "title": "Faecal Autologous Capsule Transplantation for Type 1 Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Netherlands",
+                        "excerpt": "locations.country = Netherlands"
+                    },
+                    {
+                        "nct_id": "NCT06638567",
+                        "title": "Postoperative Basal Bolus or Sliding Scale Insulin Regimen in DM2 and Its Effect on Surgical Site Infections.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Netherlands",
+                        "excerpt": "locations.country = Netherlands"
+                    },
+                    {
+                        "nct_id": "NCT06384313",
+                        "title": "Butyrate-enriched Triglyceride and Diabetes Prevention",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Netherlands",
+                        "excerpt": "locations.country = Netherlands"
+                    }
+                ]
+            },
+            {
+                "country": "Turkey (Türkiye)",
+                "trial_count": 29,
+                "citations": [
+                    {
+                        "nct_id": "NCT07409701",
+                        "title": "Gamification Intervertion in Children With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Turkey (Türkiye)",
+                        "excerpt": "locations.country = Turkey (Türkiye)"
+                    },
+                    {
+                        "nct_id": "NCT07057518",
+                        "title": "The Effect of Emotional Freedom Technique on Psychological Health and Well-being in People With Type 2 Diabetes.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Turkey (Türkiye)",
+                        "excerpt": "locations.country = Turkey (Türkiye)"
+                    },
+                    {
+                        "nct_id": "NCT06271382",
+                        "title": "The Effect Of Acupressure and Foot Exercise on Ankle Brachial Index in Individuals With Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Turkey (Türkiye)",
+                        "excerpt": "locations.country = Turkey (Türkiye)"
+                    },
+                    {
+                        "nct_id": "NCT06778005",
+                        "title": "Investigation of Ultrasonographic Measurements of Lower Extremity Nerves in Type 2 Diabetes Patients With Peripheral Polyneuropathy",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Turkey (Türkiye)",
+                        "excerpt": "locations.country = Turkey (Türkiye)"
+                    },
+                    {
+                        "nct_id": "NCT07414914",
+                        "title": "Self-Myofascial Release Plus Exercise Versus Exercise Alone in Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Turkey (Türkiye)",
+                        "excerpt": "locations.country = Turkey (Türkiye)"
+                    }
+                ]
+            },
+            {
+                "country": "Australia",
+                "trial_count": 28,
+                "citations": [
+                    {
+                        "nct_id": "NCT06907147",
+                        "title": "SPYRAL GEMINI Pilot Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Australia",
+                        "excerpt": "locations.country = Australia"
+                    },
+                    {
+                        "nct_id": "NCT07076199",
+                        "title": "A Research Study to See How a Weekly Insulin, Insulin Icodec, Helps in Reducing the Blood Sugar Compared to Daily Insulin Glargine, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Australia",
+                        "excerpt": "locations.country = Australia"
+                    },
+                    {
+                        "nct_id": "NCT07098663",
+                        "title": "Food Effect, Efficacy and Safety of MKP10241 in Healthy and Obese Adult Participants, With and Without Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Australia",
+                        "excerpt": "locations.country = Australia"
+                    },
+                    {
+                        "nct_id": "NCT06267391",
+                        "title": "Safety and Effectiveness of Endoscopic Intestinal Re-Cellularization Therapy in Individuals With Type II Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Australia",
+                        "excerpt": "locations.country = Australia"
+                    },
+                    {
+                        "nct_id": "NCT07187531",
+                        "title": "SAFety and Efficacy of Human Anti-thymocyte ImmunoGlobUlin SAB-142 ARresting Progression of Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Australia",
+                        "excerpt": "locations.country = Australia"
+                    }
+                ]
+            },
+            {
+                "country": "Belgium",
+                "trial_count": 28,
+                "citations": [
+                    {
+                        "nct_id": "NCT05569772",
+                        "title": "Semaglutide for the Treatment of Glucose Intolerance in Women with Prior Gestational Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Belgium",
+                        "excerpt": "locations.country = Belgium"
+                    },
+                    {
+                        "nct_id": "NCT07297342",
+                        "title": "A Prospective Randomnised Controlled Trial Comparing Overall Patient Compliance in a Bariatric Surgical Pathway Using the Standard Versus a More Intensified and Interactive Version of the \"Get Ready\" Smartphone Application.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Belgium",
+                        "excerpt": "locations.country = Belgium"
+                    },
+                    {
+                        "nct_id": "NCT05713448",
+                        "title": "Prevalence of Overweight and Obesity in Adult Patients Suffering From Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Belgium",
+                        "excerpt": "locations.country = Belgium"
+                    },
+                    {
+                        "nct_id": "NCT07145671",
+                        "title": "The COCCOS Study: a Transition Program for Young Persons With Chronic Conditions",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Belgium",
+                        "excerpt": "locations.country = Belgium"
+                    },
+                    {
+                        "nct_id": "NCT06519942",
+                        "title": "Muscle and Bone in Patients with Diabetes Mellitus and Neuropathy",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Belgium",
+                        "excerpt": "locations.country = Belgium"
+                    }
+                ]
+            },
+            {
+                "country": "Taiwan",
+                "trial_count": 27,
+                "citations": [
+                    {
+                        "nct_id": "NCT07241325",
+                        "title": "Psychological Well-Being, Depression, and Health-Related Quality of Life in Adults With Type 2 Diabetes: A Cross-Sectional Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Taiwan",
+                        "excerpt": "locations.country = Taiwan"
+                    },
+                    {
+                        "nct_id": "NCT05800509",
+                        "title": "Gestational Diabetes and Perinatal Depression: an Intervention Program",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Taiwan",
+                        "excerpt": "locations.country = Taiwan"
+                    },
+                    {
+                        "nct_id": "NCT06215352",
+                        "title": "Influence of Chrono-nutrition Factors and Temporal Dietary Patterns on Glycemic Parameters During Pregnancy.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Taiwan",
+                        "excerpt": "locations.country = Taiwan"
+                    },
+                    {
+                        "nct_id": "NCT06436326",
+                        "title": "The Impact of Continuous Glucose Monitoring on Maternal and Infant's Outcomes in Gestational Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Taiwan",
+                        "excerpt": "locations.country = Taiwan"
+                    },
+                    {
+                        "nct_id": "NCT05687968",
+                        "title": "Innovative Approaches in Diabetes Care",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Taiwan",
+                        "excerpt": "locations.country = Taiwan"
+                    }
+                ]
+            },
+            {
+                "country": "Brazil",
+                "trial_count": 24,
+                "citations": [
+                    {
+                        "nct_id": "NCT04874012",
+                        "title": "Taurine Effect on Glycemic, Lipidic and Inflammatory Profile in Individuals With Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Brazil",
+                        "excerpt": "locations.country = Brazil"
+                    },
+                    {
+                        "nct_id": "NCT04670666",
+                        "title": "Efficacy and Safety of Madalena Association in the Treatment of Type II Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Brazil",
+                        "excerpt": "locations.country = Brazil"
+                    },
+                    {
+                        "nct_id": "NCT05028140",
+                        "title": "Efficacy and Safety of Piemonte Association in the Treatment of Type II Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Brazil",
+                        "excerpt": "locations.country = Brazil"
+                    },
+                    {
+                        "nct_id": "NCT07088068",
+                        "title": "A Study to Investigate Efficacy and Safety of Teplizumab Compared With Placebo in Participants 1 to 25 Years of Age With Stage 3 Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Brazil",
+                        "excerpt": "locations.country = Brazil"
+                    },
+                    {
+                        "nct_id": "NCT06051318",
+                        "title": "Relationship Between Individual Effect of Diet on Postprandial Glycemia and Gut Microbiome Profile in Healthy Subjects",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Brazil",
+                        "excerpt": "locations.country = Brazil"
+                    }
+                ]
+            },
+            {
+                "country": "Switzerland",
+                "trial_count": 24,
+                "citations": [
+                    {
+                        "nct_id": "NCT05984979",
+                        "title": "The Daytime Circadian Rhythm in Exhaled Volatile Organic Compounds in People Living Without and Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Switzerland",
+                        "excerpt": "locations.country = Switzerland"
+                    },
+                    {
+                        "nct_id": "NCT06907147",
+                        "title": "SPYRAL GEMINI Pilot Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Switzerland",
+                        "excerpt": "locations.country = Switzerland"
+                    },
+                    {
+                        "nct_id": "NCT04786262",
+                        "title": "A Safety, Tolerability, and Efficacy Study of VX-880 in Participants With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Switzerland",
+                        "excerpt": "locations.country = Switzerland"
+                    },
+                    {
+                        "nct_id": "NCT06789705",
+                        "title": "Plasma Oxytocin Changes in Response to Low-dose MDMA vs. Placebo in Patients With Arginine Vasopressin Deficiency and Healthy Controls",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Switzerland",
+                        "excerpt": "locations.country = Switzerland"
+                    },
+                    {
+                        "nct_id": "NCT06682481",
+                        "title": "Beta-Cell - Liver Interactions in Situations of Modified Beta-Cell Function",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Switzerland",
+                        "excerpt": "locations.country = Switzerland"
+                    }
+                ]
+            },
+            {
+                "country": "Egypt",
+                "trial_count": 21,
+                "citations": [
+                    {
+                        "nct_id": "NCT05763303",
+                        "title": "Impact of an Interventional Program on Self-Management",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Egypt",
+                        "excerpt": "locations.country = Egypt"
+                    },
+                    {
+                        "nct_id": "NCT07293156",
+                        "title": "Impact of Pilates Exercises on Diabetic Erectile Dysfunction.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Egypt",
+                        "excerpt": "locations.country = Egypt"
+                    },
+                    {
+                        "nct_id": "NCT06762314",
+                        "title": "Efficacy and Safety of Empagliflozin or Semaglutide in Overweight/Obese Patients With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Egypt",
+                        "excerpt": "locations.country = Egypt"
+                    },
+                    {
+                        "nct_id": "NCT06810596",
+                        "title": "Comparing Efficacy Between Two Protocols of Intravenous Insulin Infusion for Diabetic Adults in ICU",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Egypt",
+                        "excerpt": "locations.country = Egypt"
+                    },
+                    {
+                        "nct_id": "NCT07060846",
+                        "title": "Endoscopic Versus Open Lumbar Discectomy in Diabetic Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Egypt",
+                        "excerpt": "locations.country = Egypt"
+                    }
+                ]
+            },
+            {
+                "country": "Poland",
+                "trial_count": 20,
+                "citations": [
+                    {
+                        "nct_id": "NCT07254572",
+                        "title": "Anti-atherosclerotic Efficacy of Selected Antidiabetic Drugs in Patients With Coronary Artery Disease and Pre-diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Poland",
+                        "excerpt": "locations.country = Poland"
+                    },
+                    {
+                        "nct_id": "NCT07076199",
+                        "title": "A Research Study to See How a Weekly Insulin, Insulin Icodec, Helps in Reducing the Blood Sugar Compared to Daily Insulin Glargine, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Poland",
+                        "excerpt": "locations.country = Poland"
+                    },
+                    {
+                        "nct_id": "NCT05957055",
+                        "title": "Lisdexamphetamine Vs Methylphenidate for Pediatric Patients with ADHD and Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Poland",
+                        "excerpt": "locations.country = Poland"
+                    },
+                    {
+                        "nct_id": "NCT07118098",
+                        "title": "INNODIA Family & Friends Early-Stage T1D Detection Protocol",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Poland",
+                        "excerpt": "locations.country = Poland"
+                    },
+                    {
+                        "nct_id": "NCT02306005",
+                        "title": "Insulin Therapy and Lipoproteins' Profile in Type 1 Diabetes.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Poland",
+                        "excerpt": "locations.country = Poland"
+                    }
+                ]
+            },
+            {
+                "country": "Singapore",
+                "trial_count": 19,
+                "citations": [
+                    {
+                        "nct_id": "NCT06945419",
+                        "title": "A Study of LY4086940 in Healthy Participants and Participants With Overweight or Obesity, With or Without Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Singapore",
+                        "excerpt": "locations.country = Singapore"
+                    },
+                    {
+                        "nct_id": "NCT06542718",
+                        "title": "Studying Phenotypes of Gestational Diabetes Mellitus in an Asian Pregnant Cohort",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Singapore",
+                        "excerpt": "locations.country = Singapore"
+                    },
+                    {
+                        "nct_id": "NCT06444074",
+                        "title": "The PACT (Patient Activation Through Conversations) Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Singapore",
+                        "excerpt": "locations.country = Singapore"
+                    },
+                    {
+                        "nct_id": "NCT07252700",
+                        "title": "Preventing Diabetes: Impact of an EMR-Based Intervention for Enhanced Pre-Diabetes Management in Primary Care",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Singapore",
+                        "excerpt": "locations.country = Singapore"
+                    },
+                    {
+                        "nct_id": "NCT07241221",
+                        "title": "Antenatal Myo-inositol Supplementation in Pre-existing Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Singapore",
+                        "excerpt": "locations.country = Singapore"
+                    }
+                ]
+            },
+            {
+                "country": "Austria",
+                "trial_count": 16,
+                "citations": [
+                    {
+                        "nct_id": "NCT07459907",
+                        "title": "Gestational Diabetes and Health Outcomes in Mothers and Babies",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Austria",
+                        "excerpt": "locations.country = Austria"
+                    },
+                    {
+                        "nct_id": "NCT03851627",
+                        "title": "Effects of Testosterone Undecanoate vs Placebo on Intrahepatic Fat Content in Overweight/Obese Men With T2DM or Prediabetes and Hypogonadism",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Austria",
+                        "excerpt": "locations.country = Austria"
+                    },
+                    {
+                        "nct_id": "NCT06452654",
+                        "title": "Anti-viral Action Against Type 1 Diabetes Autoimmunity",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Austria",
+                        "excerpt": "locations.country = Austria"
+                    },
+                    {
+                        "nct_id": "NCT07187531",
+                        "title": "SAFety and Efficacy of Human Anti-thymocyte ImmunoGlobUlin SAB-142 ARresting Progression of Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Austria",
+                        "excerpt": "locations.country = Austria"
+                    },
+                    {
+                        "nct_id": "NCT06323538",
+                        "title": "Cohort Study on Plant-based Diets (COPLANT Study)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Austria",
+                        "excerpt": "locations.country = Austria"
+                    }
+                ]
+            },
+            {
+                "country": "Pakistan",
+                "trial_count": 16,
+                "citations": [
+                    {
+                        "nct_id": "NCT07256613",
+                        "title": "Non-surgical Periodontal Therapy and Kidney Outcomes in Type 2 Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Pakistan",
+                        "excerpt": "locations.country = Pakistan"
+                    },
+                    {
+                        "nct_id": "NCT05883072",
+                        "title": "Exploring the Effectiveness of AI Generative Models for Diabetic Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Pakistan",
+                        "excerpt": "locations.country = Pakistan"
+                    },
+                    {
+                        "nct_id": "NCT05156736",
+                        "title": "Pakistan Study of Premature Coronary Atherosclerosis in Young Adults",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Pakistan",
+                        "excerpt": "locations.country = Pakistan"
+                    },
+                    {
+                        "nct_id": "NCT07290231",
+                        "title": "Effects of Core Strengthening Exercises With Diapgragmatic Breathing Versus Core Strengthening Exercises With Pilate Breathing in Diabetes Type II Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Pakistan",
+                        "excerpt": "locations.country = Pakistan"
+                    },
+                    {
+                        "nct_id": "NCT06778018",
+                        "title": "Nutritional Outcomes of Lotus Seed (Nelumbo Nucifera) on Diabetic Sensorimotor Polyneuropathy",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Pakistan",
+                        "excerpt": "locations.country = Pakistan"
+                    }
+                ]
+            },
+            {
+                "country": "Czechia",
+                "trial_count": 15,
+                "citations": [
+                    {
+                        "nct_id": "NCT06993792",
+                        "title": "A Master Protocol for Orforglipron (LY3502970) in Participants With Obesity or Overweight With and Without Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Czechia",
+                        "excerpt": "locations.country = Czechia"
+                    },
+                    {
+                        "nct_id": "NCT06972472",
+                        "title": "A Study of Orforglipron (LY3502970) in Participants With Obesity or Overweight and Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Czechia",
+                        "excerpt": "locations.country = Czechia"
+                    },
+                    {
+                        "nct_id": "NCT07088068",
+                        "title": "A Study to Investigate Efficacy and Safety of Teplizumab Compared With Placebo in Participants 1 to 25 Years of Age With Stage 3 Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Czechia",
+                        "excerpt": "locations.country = Czechia"
+                    },
+                    {
+                        "nct_id": "NCT06374368",
+                        "title": "Small Bowel Diversion",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Czechia",
+                        "excerpt": "locations.country = Czechia"
+                    },
+                    {
+                        "nct_id": "NCT07320495",
+                        "title": "Efficacy and Safety of the APGO Algorithm for Automated Insulin Delivery",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Czechia",
+                        "excerpt": "locations.country = Czechia"
+                    }
+                ]
+            },
+            {
+                "country": "Hong Kong",
+                "trial_count": 15,
+                "citations": [
+                    {
+                        "nct_id": "NCT03875625",
+                        "title": "Change of Adipose Tissues and Triglyceride After Bariatric Surgery or Life-style Intervention",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hong Kong",
+                        "excerpt": "locations.country = Hong Kong"
+                    },
+                    {
+                        "nct_id": "NCT06466837",
+                        "title": "Just-In-Time Adaptive Interventions for Diabetic Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hong Kong",
+                        "excerpt": "locations.country = Hong Kong"
+                    },
+                    {
+                        "nct_id": "NCT06515119",
+                        "title": "Resources-Oriented Salutogenic (ROS) Intervention for Pre-diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hong Kong",
+                        "excerpt": "locations.country = Hong Kong"
+                    },
+                    {
+                        "nct_id": "NCT04706481",
+                        "title": "Archival of Human Biological Samples in CU-Med Biobank",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hong Kong",
+                        "excerpt": "locations.country = Hong Kong"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hong Kong",
+                        "excerpt": "locations.country = Hong Kong"
+                    }
+                ]
+            },
+            {
+                "country": "Israel",
+                "trial_count": 15,
+                "citations": [
+                    {
+                        "nct_id": "NCT06355154",
+                        "title": "Effects of Moderate Carbohydrate Consumption on Metabolic and Obstetric Outcomes in Pregnant Women With Insulin-treated Diabetes- A Randomized Controlled Trial",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Israel",
+                        "excerpt": "locations.country = Israel"
+                    },
+                    {
+                        "nct_id": "NCT03878459",
+                        "title": "Dapagliflozin Plus Pioglitazone in T1DM",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Israel",
+                        "excerpt": "locations.country = Israel"
+                    },
+                    {
+                        "nct_id": "NCT05648721",
+                        "title": "The Effects of a Digital Application for GDM Management in Improving Patients' Compliance",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Israel",
+                        "excerpt": "locations.country = Israel"
+                    },
+                    {
+                        "nct_id": "NCT03510078",
+                        "title": "Intensive Versus Conventional Hyperglycemic Control in Hospitalized Non-critically Ill Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Israel",
+                        "excerpt": "locations.country = Israel"
+                    },
+                    {
+                        "nct_id": "NCT07088068",
+                        "title": "A Study to Investigate Efficacy and Safety of Teplizumab Compared With Placebo in Participants 1 to 25 Years of Age With Stage 3 Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Israel",
+                        "excerpt": "locations.country = Israel"
+                    }
+                ]
+            },
+            {
+                "country": "India",
+                "trial_count": 14,
+                "citations": [
+                    {
+                        "nct_id": "NCT06095492",
+                        "title": "Effect of Empagliflozin vs Linagliptin on Glycemic Outcomes,Renal Outcomes & Body Composition in Renal Transplant Recipients With Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "India",
+                        "excerpt": "locations.country = India"
+                    },
+                    {
+                        "nct_id": "NCT07282743",
+                        "title": "Efficacy and Safety of GL0034 in Overweight or Obese Adults With Type II Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "India",
+                        "excerpt": "locations.country = India"
+                    },
+                    {
+                        "nct_id": "NCT06035874",
+                        "title": "Effect of Bempedoic Acid on Liver Fat in Individuals With Nonalcoholic Fatty Liver Disease and Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "India",
+                        "excerpt": "locations.country = India"
+                    },
+                    {
+                        "nct_id": "NCT06386939",
+                        "title": "Comparison of Micro- and Macrovascular Disease(s) in People With T2D, Who Have Moderate to Severe Acanthosis Nigricans vs. Those Who do Not Have Acanthosis Nigricans",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "India",
+                        "excerpt": "locations.country = India"
+                    },
+                    {
+                        "nct_id": "NCT06417840",
+                        "title": "To Evaluate the Impact of Consumption of a Bioactive Compound on Fasting Blood Glucose Levels in Asian Indians With Pre-diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "India",
+                        "excerpt": "locations.country = India"
+                    }
+                ]
+            },
+            {
+                "country": "Greece",
+                "trial_count": 12,
+                "citations": [
+                    {
+                        "nct_id": "NCT06907147",
+                        "title": "SPYRAL GEMINI Pilot Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Greece",
+                        "excerpt": "locations.country = Greece"
+                    },
+                    {
+                        "nct_id": "NCT06919029",
+                        "title": "Effect of Advanced Hybrid Closed Loop System, MiniMed 780G in Newly Diagnosed Children and Adolescents With Type 1 Diabetes on Glycemic Control and Patient Reported Outcomes Compared to Standard Insulin Therapy Historical Data (AHCL in New Onset T1D Children Study)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Greece",
+                        "excerpt": "locations.country = Greece"
+                    },
+                    {
+                        "nct_id": "NCT06562842",
+                        "title": "Exercise, Gut Microbiota and Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Greece",
+                        "excerpt": "locations.country = Greece"
+                    },
+                    {
+                        "nct_id": "NCT05651724",
+                        "title": "Global Research Initiative for Patients Screening on MASH",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Greece",
+                        "excerpt": "locations.country = Greece"
+                    },
+                    {
+                        "nct_id": "NCT04257877",
+                        "title": "Proteomic Analysis in Paediatric Diabetes Type 1 (PAPD)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Greece",
+                        "excerpt": "locations.country = Greece"
+                    }
+                ]
+            },
+            {
+                "country": "Finland",
+                "trial_count": 11,
+                "citations": [
+                    {
+                        "nct_id": "NCT03156478",
+                        "title": "STOP DIABETES - Knowledge-based Solutions",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Finland",
+                        "excerpt": "locations.country = Finland"
+                    },
+                    {
+                        "nct_id": "NCT07187531",
+                        "title": "SAFety and Efficacy of Human Anti-thymocyte ImmunoGlobUlin SAB-142 ARresting Progression of Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Finland",
+                        "excerpt": "locations.country = Finland"
+                    },
+                    {
+                        "nct_id": "NCT06486012",
+                        "title": "Regular Use of aPDT in the Management and Prevention of Periodontitis Symptoms in Diabetic Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Finland",
+                        "excerpt": "locations.country = Finland"
+                    },
+                    {
+                        "nct_id": "NCT00097292",
+                        "title": "TrialNet Pathway to Prevention of T1D",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Finland",
+                        "excerpt": "locations.country = Finland"
+                    },
+                    {
+                        "nct_id": "NCT07222137",
+                        "title": "A Study of Baricitinib (LY3009104) for the Delay of Stage 3 Type 1 Diabetes in At-Risk Children and Adults",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Finland",
+                        "excerpt": "locations.country = Finland"
+                    }
+                ]
+            },
+            {
+                "country": "Ireland",
+                "trial_count": 11,
+                "citations": [
+                    {
+                        "nct_id": "NCT07209930",
+                        "title": "Inter- and Intraindividual Variability of the Acute Glucose Response to Exercise in Healthy Adults and People Living With Type 1 Diabetes: A Cross-over Replicate Trial",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ireland",
+                        "excerpt": "locations.country = Ireland"
+                    },
+                    {
+                        "nct_id": "NCT06907147",
+                        "title": "SPYRAL GEMINI Pilot Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ireland",
+                        "excerpt": "locations.country = Ireland"
+                    },
+                    {
+                        "nct_id": "NCT06157736",
+                        "title": "Microbiome in the Acute Stage of New Onset Paediatric Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ireland",
+                        "excerpt": "locations.country = Ireland"
+                    },
+                    {
+                        "nct_id": "NCT04511312",
+                        "title": "Management and Outcomes of Perioperative Care Among European Diabetic Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ireland",
+                        "excerpt": "locations.country = Ireland"
+                    },
+                    {
+                        "nct_id": "NCT07303439",
+                        "title": "Randomised Trial of Dual Device Treatment Involving Drug-coated Balloon Angioplasty and Drug-eluting Stent Implantation Compared to Single Device Treatments in Patients With Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ireland",
+                        "excerpt": "locations.country = Ireland"
+                    }
+                ]
+            },
+            {
+                "country": "Japan",
+                "trial_count": 10,
+                "citations": [
+                    {
+                        "nct_id": "NCT05366868",
+                        "title": "Durable Effect of Imeglimin on the Glycemic Control in Patients With Type 2 Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Japan",
+                        "excerpt": "locations.country = Japan"
+                    },
+                    {
+                        "nct_id": "NCT06993792",
+                        "title": "A Master Protocol for Orforglipron (LY3502970) in Participants With Obesity or Overweight With and Without Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Japan",
+                        "excerpt": "locations.country = Japan"
+                    },
+                    {
+                        "nct_id": "NCT06694012",
+                        "title": "Osaka Cardiometabolic Epidemiological Study: Ohtori Study Part 2",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Japan",
+                        "excerpt": "locations.country = Japan"
+                    },
+                    {
+                        "nct_id": "NCT06278207",
+                        "title": "An Observational Study Called FINEROD to Learn More About the Use of the Treatment Finerenone Including How Safe it is and How Well it Works Under Real-world Conditions",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Japan",
+                        "excerpt": "locations.country = Japan"
+                    },
+                    {
+                        "nct_id": "NCT06972472",
+                        "title": "A Study of Orforglipron (LY3502970) in Participants With Obesity or Overweight and Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Japan",
+                        "excerpt": "locations.country = Japan"
+                    }
+                ]
+            },
+            {
+                "country": "Puerto Rico",
+                "trial_count": 10,
+                "citations": [
+                    {
+                        "nct_id": "NCT06993792",
+                        "title": "A Master Protocol for Orforglipron (LY3502970) in Participants With Obesity or Overweight With and Without Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Puerto Rico",
+                        "excerpt": "locations.country = Puerto Rico"
+                    },
+                    {
+                        "nct_id": "NCT07076199",
+                        "title": "A Research Study to See How a Weekly Insulin, Insulin Icodec, Helps in Reducing the Blood Sugar Compared to Daily Insulin Glargine, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Puerto Rico",
+                        "excerpt": "locations.country = Puerto Rico"
+                    },
+                    {
+                        "nct_id": "NCT05962372",
+                        "title": "Culturally Adapted Dietary Clinical Trial in PR",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Puerto Rico",
+                        "excerpt": "locations.country = Puerto Rico"
+                    },
+                    {
+                        "nct_id": "NCT06972472",
+                        "title": "A Study of Orforglipron (LY3502970) in Participants With Obesity or Overweight and Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Puerto Rico",
+                        "excerpt": "locations.country = Puerto Rico"
+                    },
+                    {
+                        "nct_id": "NCT06251323",
+                        "title": "Implementing Scalable, PAtient-centered, Team-based, Technology-enabled Care for Adults With Type 2 Diabetes (iPATH)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Puerto Rico",
+                        "excerpt": "locations.country = Puerto Rico"
+                    }
+                ]
+            },
+            {
+                "country": "Argentina",
+                "trial_count": 9,
+                "citations": [
+                    {
+                        "nct_id": "NCT06993792",
+                        "title": "A Master Protocol for Orforglipron (LY3502970) in Participants With Obesity or Overweight With and Without Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Argentina",
+                        "excerpt": "locations.country = Argentina"
+                    },
+                    {
+                        "nct_id": "NCT06972472",
+                        "title": "A Study of Orforglipron (LY3502970) in Participants With Obesity or Overweight and Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Argentina",
+                        "excerpt": "locations.country = Argentina"
+                    },
+                    {
+                        "nct_id": "NCT04040777",
+                        "title": "Cardiometabolic Risk Factors Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Argentina",
+                        "excerpt": "locations.country = Argentina"
+                    },
+                    {
+                        "nct_id": "NCT07088068",
+                        "title": "A Study to Investigate Efficacy and Safety of Teplizumab Compared With Placebo in Participants 1 to 25 Years of Age With Stage 3 Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Argentina",
+                        "excerpt": "locations.country = Argentina"
+                    },
+                    {
+                        "nct_id": "NCT06739122",
+                        "title": "A Study of Dulaglutide (LY2189265) 3.0 mg and 4.5 mg in Pediatric Participants With Type 2 Diabetes Mellitus (AWARD-PEDS PLUS)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Argentina",
+                        "excerpt": "locations.country = Argentina"
+                    }
+                ]
+            },
+            {
+                "country": "Malaysia",
+                "trial_count": 9,
+                "citations": [
+                    {
+                        "nct_id": "NCT06676254",
+                        "title": "Role of HbA1c in Predicting Adverse Pregnancy Outcomes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Malaysia",
+                        "excerpt": "locations.country = Malaysia"
+                    },
+                    {
+                        "nct_id": "NCT06319560",
+                        "title": "Hydroxychloroquine in Type 2 Diabetes During Pregnancy",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Malaysia",
+                        "excerpt": "locations.country = Malaysia"
+                    },
+                    {
+                        "nct_id": "NCT06590519",
+                        "title": "Date Seed Extract Effectiveness in Controlling Diabetes and Cardiovascular Risk in T2DM",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Malaysia",
+                        "excerpt": "locations.country = Malaysia"
+                    },
+                    {
+                        "nct_id": "NCT05326204",
+                        "title": "1 Versus 2 Hours Post Meal Glucose Monitoring in Gestational Diabetes on Treatment",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Malaysia",
+                        "excerpt": "locations.country = Malaysia"
+                    },
+                    {
+                        "nct_id": "NCT06862180",
+                        "title": "Effect of Meal Replacement Therapy on Glucose Control and Metabolic Parameters in Patients With Uncontrolled Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Malaysia",
+                        "excerpt": "locations.country = Malaysia"
+                    }
+                ]
+            },
+            {
+                "country": "Portugal",
+                "trial_count": 9,
+                "citations": [
+                    {
+                        "nct_id": "NCT07458516",
+                        "title": "Longitudinal Observational Study of Diabetic Retinopathy Progression in Type 2 Diabetes Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Portugal",
+                        "excerpt": "locations.country = Portugal"
+                    },
+                    {
+                        "nct_id": "NCT05651724",
+                        "title": "Global Research Initiative for Patients Screening on MASH",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Portugal",
+                        "excerpt": "locations.country = Portugal"
+                    },
+                    {
+                        "nct_id": "NCT07222137",
+                        "title": "A Study of Baricitinib (LY3009104) for the Delay of Stage 3 Type 1 Diabetes in At-Risk Children and Adults",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Portugal",
+                        "excerpt": "locations.country = Portugal"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Portugal",
+                        "excerpt": "locations.country = Portugal"
+                    },
+                    {
+                        "nct_id": "NCT07173062",
+                        "title": "Algae Effects in Markers of Cardiovascular Risk and Gut Microbiome",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Portugal",
+                        "excerpt": "locations.country = Portugal"
+                    }
+                ]
+            },
+            {
+                "country": "Mexico",
+                "trial_count": 8,
+                "citations": [
+                    {
+                        "nct_id": "NCT06468553",
+                        "title": "Multidisciplinary Care for Lifestyle Change for Metabolic Control and Quality of Life in Prediabetes (PreCPro)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Mexico",
+                        "excerpt": "locations.country = Mexico"
+                    },
+                    {
+                        "nct_id": "NCT06739122",
+                        "title": "A Study of Dulaglutide (LY2189265) 3.0 mg and 4.5 mg in Pediatric Participants With Type 2 Diabetes Mellitus (AWARD-PEDS PLUS)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Mexico",
+                        "excerpt": "locations.country = Mexico"
+                    },
+                    {
+                        "nct_id": "NCT07401992",
+                        "title": "Effects of Semaglutide on Clinical Outcomes and Metabolic Inflammation in Psoriasis",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Mexico",
+                        "excerpt": "locations.country = Mexico"
+                    },
+                    {
+                        "nct_id": "NCT02836808",
+                        "title": "Validation of an Integrated Attention Model for Patients With Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Mexico",
+                        "excerpt": "locations.country = Mexico"
+                    },
+                    {
+                        "nct_id": "NCT02722655",
+                        "title": "Cohort of Mexican Children With Diabetes Mellitus (CMC-DM)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Mexico",
+                        "excerpt": "locations.country = Mexico"
+                    }
+                ]
+            },
+            {
+                "country": "Slovenia",
+                "trial_count": 8,
+                "citations": [
+                    {
+                        "nct_id": "NCT07118098",
+                        "title": "INNODIA Family & Friends Early-Stage T1D Detection Protocol",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovenia",
+                        "excerpt": "locations.country = Slovenia"
+                    },
+                    {
+                        "nct_id": "NCT07187531",
+                        "title": "SAFety and Efficacy of Human Anti-thymocyte ImmunoGlobUlin SAB-142 ARresting Progression of Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovenia",
+                        "excerpt": "locations.country = Slovenia"
+                    },
+                    {
+                        "nct_id": "NCT06966427",
+                        "title": "Prospective Evaluation of a Dose Guidance System for People With Diabetes Initiating Basal Insulin or Using Insulin Injections",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovenia",
+                        "excerpt": "locations.country = Slovenia"
+                    },
+                    {
+                        "nct_id": "NCT06111586",
+                        "title": "FrexalimAB in Preservation of Endogenous insULIN Secretion Compared to Placebo in adUlts and Adolescents on Top of inSulin Therapy (FABULINUS)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovenia",
+                        "excerpt": "locations.country = Slovenia"
+                    },
+                    {
+                        "nct_id": "NCT06613854",
+                        "title": "Effect of Early Combination Antihyperglycemic Treatment on Metabolic Control in Individuals With Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovenia",
+                        "excerpt": "locations.country = Slovenia"
+                    }
+                ]
+            },
+            {
+                "country": "Chile",
+                "trial_count": 7,
+                "citations": [
+                    {
+                        "nct_id": "NCT05887635",
+                        "title": "Study of Duodenal Mucosal RF Vapor Ablation in Subjects With Type-2 Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Chile",
+                        "excerpt": "locations.country = Chile"
+                    },
+                    {
+                        "nct_id": "NCT06895980",
+                        "title": "Effect of Periodontal Treatment on Metabolic Control in Patients with Type-2 Diabetes Mellitus Treated in the Cardiovascular Healt Program",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Chile",
+                        "excerpt": "locations.country = Chile"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Chile",
+                        "excerpt": "locations.country = Chile"
+                    },
+                    {
+                        "nct_id": "NCT06688461",
+                        "title": "High Intensity Interval Training and Insulin Sensitivity in Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Chile",
+                        "excerpt": "locations.country = Chile"
+                    },
+                    {
+                        "nct_id": "NCT07447362",
+                        "title": "Clinical Management of Cardiovascular Risk Factors in Adult Patients: A Before-and-After Interventional Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Chile",
+                        "excerpt": "locations.country = Chile"
+                    }
+                ]
+            },
+            {
+                "country": "Norway",
+                "trial_count": 7,
+                "citations": [
+                    {
+                        "nct_id": "NCT03594344",
+                        "title": "Additional Hyperbaric Oxygen After Lower Extremity Amputation",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Norway",
+                        "excerpt": "locations.country = Norway"
+                    },
+                    {
+                        "nct_id": "NCT04786262",
+                        "title": "A Safety, Tolerability, and Efficacy Study of VX-880 in Participants With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Norway",
+                        "excerpt": "locations.country = Norway"
+                    },
+                    {
+                        "nct_id": "NCT07361640",
+                        "title": "DiaMester Pilot RCT: E-health Lifestyle Program for Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Norway",
+                        "excerpt": "locations.country = Norway"
+                    },
+                    {
+                        "nct_id": "NCT07222137",
+                        "title": "A Study of Baricitinib (LY3009104) for the Delay of Stage 3 Type 1 Diabetes in At-Risk Children and Adults",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Norway",
+                        "excerpt": "locations.country = Norway"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Norway",
+                        "excerpt": "locations.country = Norway"
+                    }
+                ]
+            },
+            {
+                "country": "Saudi Arabia",
+                "trial_count": 7,
+                "citations": [
+                    {
+                        "nct_id": "NCT04786262",
+                        "title": "A Safety, Tolerability, and Efficacy Study of VX-880 in Participants With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Saudi Arabia",
+                        "excerpt": "locations.country = Saudi Arabia"
+                    },
+                    {
+                        "nct_id": "NCT05697991",
+                        "title": "Non-Alcoholic Fatty Liver Disease in a Saudi Cohort With Type 2 Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Saudi Arabia",
+                        "excerpt": "locations.country = Saudi Arabia"
+                    },
+                    {
+                        "nct_id": "NCT06832410",
+                        "title": "An Efficacy, Safety, and Tolerability Study of VX-880 in Participants With Type 1 Diabetes With a Kidney Transplant",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Saudi Arabia",
+                        "excerpt": "locations.country = Saudi Arabia"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Saudi Arabia",
+                        "excerpt": "locations.country = Saudi Arabia"
+                    },
+                    {
+                        "nct_id": "NCT05630508",
+                        "title": "Lifestyle Management App for Adults With Diabetes Type",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Saudi Arabia",
+                        "excerpt": "locations.country = Saudi Arabia"
+                    }
+                ]
+            },
+            {
+                "country": "New Zealand",
+                "trial_count": 6,
+                "citations": [
+                    {
+                        "nct_id": "NCT05822544",
+                        "title": "Phase 1/1b Study of TLC-6740 in Healthy Subjects and Subjects With Obesity, With or Without Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "New Zealand",
+                        "excerpt": "locations.country = New Zealand"
+                    },
+                    {
+                        "nct_id": "NCT07187531",
+                        "title": "SAFety and Efficacy of Human Anti-thymocyte ImmunoGlobUlin SAB-142 ARresting Progression of Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "New Zealand",
+                        "excerpt": "locations.country = New Zealand"
+                    },
+                    {
+                        "nct_id": "NCT02817360",
+                        "title": "NT-proBNP Selected Prevention of Cardiac Events in Diabetic Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "New Zealand",
+                        "excerpt": "locations.country = New Zealand"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "New Zealand",
+                        "excerpt": "locations.country = New Zealand"
+                    },
+                    {
+                        "nct_id": "NCT07228117",
+                        "title": "GATEWAY: Safety Evaluation of the MiniMed™ NMX8-AID System in Children and Adults Living With Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "New Zealand",
+                        "excerpt": "locations.country = New Zealand"
+                    }
+                ]
+            },
+            {
+                "country": "Romania",
+                "trial_count": 6,
+                "citations": [
+                    {
+                        "nct_id": "NCT07076199",
+                        "title": "A Research Study to See How a Weekly Insulin, Insulin Icodec, Helps in Reducing the Blood Sugar Compared to Daily Insulin Glargine, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Romania",
+                        "excerpt": "locations.country = Romania"
+                    },
+                    {
+                        "nct_id": "NCT06775028",
+                        "title": "Integrated Approach in Frail Older People with Atrial Fibrillation",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Romania",
+                        "excerpt": "locations.country = Romania"
+                    },
+                    {
+                        "nct_id": "NCT05651724",
+                        "title": "Global Research Initiative for Patients Screening on MASH",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Romania",
+                        "excerpt": "locations.country = Romania"
+                    },
+                    {
+                        "nct_id": "NCT07400653",
+                        "title": "A Study to Learn About the Study Medicine (PF-08653944) in People With Obesity or Overweight and Type 2 Diabetes (T2D)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Romania",
+                        "excerpt": "locations.country = Romania"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Romania",
+                        "excerpt": "locations.country = Romania"
+                    }
+                ]
+            },
+            {
+                "country": "Hungary",
+                "trial_count": 5,
+                "citations": [
+                    {
+                        "nct_id": "NCT07112872",
+                        "title": "A Study to Compare Different Doses of RO7795081 With a Placebo or Semaglutide in People With Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hungary",
+                        "excerpt": "locations.country = Hungary"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hungary",
+                        "excerpt": "locations.country = Hungary"
+                    },
+                    {
+                        "nct_id": "NCT07086989",
+                        "title": "Cardiovascular Risk in Children With Chronic Conditions Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hungary",
+                        "excerpt": "locations.country = Hungary"
+                    },
+                    {
+                        "nct_id": "NCT06111586",
+                        "title": "FrexalimAB in Preservation of Endogenous insULIN Secretion Compared to Placebo in adUlts and Adolescents on Top of inSulin Therapy (FABULINUS)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hungary",
+                        "excerpt": "locations.country = Hungary"
+                    },
+                    {
+                        "nct_id": "NCT06269120",
+                        "title": "SEMA-CardioDiab HUNGARY: A Research Study to Understand the Effects of Oral Semaglutide on Blood Sugar Levels, Weight, and Cardiovascular Risk in People With Type 2 Diabetes Patients in Hungary",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Hungary",
+                        "excerpt": "locations.country = Hungary"
+                    }
+                ]
+            },
+            {
+                "country": "Slovakia",
+                "trial_count": 5,
+                "citations": [
+                    {
+                        "nct_id": "NCT07076199",
+                        "title": "A Research Study to See How a Weekly Insulin, Insulin Icodec, Helps in Reducing the Blood Sugar Compared to Daily Insulin Glargine, Both in Combination With Insulin Aspart, in Adults With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovakia",
+                        "excerpt": "locations.country = Slovakia"
+                    },
+                    {
+                        "nct_id": "NCT07400653",
+                        "title": "A Study to Learn About the Study Medicine (PF-08653944) in People With Obesity or Overweight and Type 2 Diabetes (T2D)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovakia",
+                        "excerpt": "locations.country = Slovakia"
+                    },
+                    {
+                        "nct_id": "NCT06068114",
+                        "title": "Gastric Pathophysiology in Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovakia",
+                        "excerpt": "locations.country = Slovakia"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovakia",
+                        "excerpt": "locations.country = Slovakia"
+                    },
+                    {
+                        "nct_id": "NCT07055984",
+                        "title": "Predicting Outcomes in Posttransplant Diabetes Mellitus Via microRNA",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Slovakia",
+                        "excerpt": "locations.country = Slovakia"
+                    }
+                ]
+            },
+            {
+                "country": "Bangladesh",
+                "trial_count": 4,
+                "citations": [
+                    {
+                        "nct_id": "NCT06258473",
+                        "title": "Addressing Gaps in the Hypertension and Diabetes Care Continuum in Rural Bangladesh: The Dinajpur Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bangladesh",
+                        "excerpt": "locations.country = Bangladesh"
+                    },
+                    {
+                        "nct_id": "NCT06968637",
+                        "title": "Improving Patient-centered Care for Diabetes in Bangladesh Through \"Dynamic Integration\" of Vision Care on the Supply Side",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bangladesh",
+                        "excerpt": "locations.country = Bangladesh"
+                    },
+                    {
+                        "nct_id": "NCT06570980",
+                        "title": "Comparative Analysis of Cost-effectiveness Between Sulfonylureas and DPP4 Inhibitors in Combination With Metformin in Treatment of Type 2 Diabetic Patients : A Retrospective, Observational Study.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bangladesh",
+                        "excerpt": "locations.country = Bangladesh"
+                    },
+                    {
+                        "nct_id": "NCT06968611",
+                        "title": "Improving Patient-centered Care for Diabetes in Bangladesh Through \"Dynamic Integration\" of Vision Care on the Demand Side",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bangladesh",
+                        "excerpt": "locations.country = Bangladesh"
+                    }
+                ]
+            },
+            {
+                "country": "Qatar",
+                "trial_count": 4,
+                "citations": [
+                    {
+                        "nct_id": "NCT04442529",
+                        "title": "Mothers and Babies Qatar (MB-Q): A Postpartum Depression Intervention",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Qatar",
+                        "excerpt": "locations.country = Qatar"
+                    },
+                    {
+                        "nct_id": "NCT06130215",
+                        "title": "Simple Meal Management Using Automated Insulin Delivery System",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Qatar",
+                        "excerpt": "locations.country = Qatar"
+                    },
+                    {
+                        "nct_id": "NCT03394313",
+                        "title": "Qatar Cardiometabolic Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Qatar",
+                        "excerpt": "locations.country = Qatar"
+                    },
+                    {
+                        "nct_id": "NCT05407207",
+                        "title": "Therapeutic Plantar Electrical Stimulation Intervention During Hemodialysis to Improve Balance and Mobility",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Qatar",
+                        "excerpt": "locations.country = Qatar"
+                    }
+                ]
+            },
+            {
+                "country": "United Arab Emirates",
+                "trial_count": 4,
+                "citations": [
+                    {
+                        "nct_id": "NCT06605508",
+                        "title": "Regenerative Injection of Stem Cells or Stem Cell-derived Exosomes for Erectile Dysfunction (RISE)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Arab Emirates",
+                        "excerpt": "locations.country = United Arab Emirates"
+                    },
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Arab Emirates",
+                        "excerpt": "locations.country = United Arab Emirates"
+                    },
+                    {
+                        "nct_id": "NCT07038473",
+                        "title": "Early Detection of Type 1 Diabetes in First Degree Relatives of Type 1 Diabetes Patients (DETECT T1D GULF)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Arab Emirates",
+                        "excerpt": "locations.country = United Arab Emirates"
+                    },
+                    {
+                        "nct_id": "NCT06073457",
+                        "title": "Magnetic Gastro-Ileal or Gastro-Jejunal Diversion Study (\"MGI/MGJ Study\")",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "United Arab Emirates",
+                        "excerpt": "locations.country = United Arab Emirates"
+                    }
+                ]
+            },
+            {
+                "country": "Vietnam",
+                "trial_count": 4,
+                "citations": [
+                    {
+                        "nct_id": "NCT06337357",
+                        "title": "Results of Progressive Resistance Training in Older Type 2 Diabetic Patients With Sarcopenia",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Vietnam",
+                        "excerpt": "locations.country = Vietnam"
+                    },
+                    {
+                        "nct_id": "NCT06985095",
+                        "title": "Evaluation of a Structured Nutrition Educational Program in Insulin-treated Diabetic Patients in Vietnam",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Vietnam",
+                        "excerpt": "locations.country = Vietnam"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Vietnam",
+                        "excerpt": "locations.country = Vietnam"
+                    },
+                    {
+                        "nct_id": "NCT06345118",
+                        "title": "Evaluate the Results of Fall Prevention in Older Adults With Type 2 Diabetes Mellitus",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Vietnam",
+                        "excerpt": "locations.country = Vietnam"
+                    }
+                ]
+            },
+            {
+                "country": "Bulgaria",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT06775028",
+                        "title": "Integrated Approach in Frail Older People with Atrial Fibrillation",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bulgaria",
+                        "excerpt": "locations.country = Bulgaria"
+                    },
+                    {
+                        "nct_id": "NCT07400653",
+                        "title": "A Study to Learn About the Study Medicine (PF-08653944) in People With Obesity or Overweight and Type 2 Diabetes (T2D)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bulgaria",
+                        "excerpt": "locations.country = Bulgaria"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bulgaria",
+                        "excerpt": "locations.country = Bulgaria"
+                    }
+                ]
+            },
+            {
+                "country": "Croatia",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT07017127",
+                        "title": "Remission of Type 2 Diabetes With Lifestyle Intervention",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Croatia",
+                        "excerpt": "locations.country = Croatia"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Croatia",
+                        "excerpt": "locations.country = Croatia"
+                    },
+                    {
+                        "nct_id": "NCT07314944",
+                        "title": "Maternal Sleep and Lifestyle, Metabolic Health, and Perinatal Outcomes in Gestational Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Croatia",
+                        "excerpt": "locations.country = Croatia"
+                    }
+                ]
+            },
+            {
+                "country": "Kuwait",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT03878459",
+                        "title": "Dapagliflozin Plus Pioglitazone in T1DM",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Kuwait",
+                        "excerpt": "locations.country = Kuwait"
+                    },
+                    {
+                        "nct_id": "NCT06984133",
+                        "title": "Structured Education Program and Glycemic Control in Adolescents With Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Kuwait",
+                        "excerpt": "locations.country = Kuwait"
+                    },
+                    {
+                        "nct_id": "NCT06115876",
+                        "title": "Kuwait Adult Diabetes Epidemiological Multidisciplinary (KADEM) Program",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Kuwait",
+                        "excerpt": "locations.country = Kuwait"
+                    }
+                ]
+            },
+            {
+                "country": "Nepal",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT04198857",
+                        "title": "Development and Testing of a Mobile Health Application for Management of Gestational Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Nepal",
+                        "excerpt": "locations.country = Nepal"
+                    },
+                    {
+                        "nct_id": "NCT07432126",
+                        "title": "Community Health Workers Led Integrated Management of Hypertension and Diabetes in Nepal",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Nepal",
+                        "excerpt": "locations.country = Nepal"
+                    },
+                    {
+                        "nct_id": "NCT06740708",
+                        "title": "Scaling Up Community-based Noncommunicable Disease Research Into Practice in Pokhara Metropolitan City of Nepal",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Nepal",
+                        "excerpt": "locations.country = Nepal"
+                    }
+                ]
+            },
+            {
+                "country": "Nigeria",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT05164263",
+                        "title": "Real World Safety & Efficacy Experience of Empagliflozin With or Without Metformin in T2DM Patients - EASE Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Nigeria",
+                        "excerpt": "locations.country = Nigeria"
+                    },
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Nigeria",
+                        "excerpt": "locations.country = Nigeria"
+                    },
+                    {
+                        "nct_id": "NCT00837122",
+                        "title": "Genetics of Type 2 Diabetes in West Africans",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Nigeria",
+                        "excerpt": "locations.country = Nigeria"
+                    }
+                ]
+            },
+            {
+                "country": "Reunion",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT06437782",
+                        "title": "Exploration of Health Literacy in Diabetes in Reunion Island and France",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Reunion",
+                        "excerpt": "locations.country = Reunion"
+                    },
+                    {
+                        "nct_id": "NCT06473584",
+                        "title": "Study of the Prevalence of Diabetes and Pre-diabetes in Réunion Island",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Reunion",
+                        "excerpt": "locations.country = Reunion"
+                    },
+                    {
+                        "nct_id": "NCT06477900",
+                        "title": "Impact of SMS Reminder on Weight Loss, as Part of a Health Pathway in Patients With Prediabetes (PREDIABCOACH)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Reunion",
+                        "excerpt": "locations.country = Reunion"
+                    }
+                ]
+            },
+            {
+                "country": "Russia",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT07041268",
+                        "title": "Immunotherapy of the Recent-onset Type 1 Diabetes in Adolescents With Repeated Courses of Rituximab",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Russia",
+                        "excerpt": "locations.country = Russia"
+                    },
+                    {
+                        "nct_id": "NCT03945968",
+                        "title": "The Role of Concomitant Diseases in Postoperative Complications Risk Stratification.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Russia",
+                        "excerpt": "locations.country = Russia"
+                    },
+                    {
+                        "nct_id": "NCT07391319",
+                        "title": "The Prospective, Double-blind, Multicenter, Placebo-controlled, Randomized, Comparative Clinical Trial",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Russia",
+                        "excerpt": "locations.country = Russia"
+                    }
+                ]
+            },
+            {
+                "country": "Thailand",
+                "trial_count": 3,
+                "citations": [
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Thailand",
+                        "excerpt": "locations.country = Thailand"
+                    },
+                    {
+                        "nct_id": "NCT07195045",
+                        "title": "Thai PainPREDICT Validation Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Thailand",
+                        "excerpt": "locations.country = Thailand"
+                    },
+                    {
+                        "nct_id": "NCT06647745",
+                        "title": "A Randomized, Double-blind, Multi-center, Active-controlled, Phase 3 Clinical Trial to Evaluate the Efficacy and Safety of Combination Therapy of THP-00101, THP-00102, and THP-00103 in Subjects With T2DM and Essential Hypertension",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Thailand",
+                        "excerpt": "locations.country = Thailand"
+                    }
+                ]
+            },
+            {
+                "country": "Afghanistan",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT07350694",
+                        "title": "Engagement of coMmunity Through Participatory Learning and Action for cOntrol and preVEntion of Type II Diabetes and Its Risk Factors",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Afghanistan",
+                        "excerpt": "locations.country = Afghanistan"
+                    },
+                    {
+                        "nct_id": "NCT05164263",
+                        "title": "Real World Safety & Efficacy Experience of Empagliflozin With or Without Metformin in T2DM Patients - EASE Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Afghanistan",
+                        "excerpt": "locations.country = Afghanistan"
+                    }
+                ]
+            },
+            {
+                "country": "Colombia",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT06476015",
+                        "title": "Effectiveness of Physical Exercise of Patients With Chronic Non-communicable Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Colombia",
+                        "excerpt": "locations.country = Colombia"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Colombia",
+                        "excerpt": "locations.country = Colombia"
+                    }
+                ]
+            },
+            {
+                "country": "Ghana",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT00837122",
+                        "title": "Genetics of Type 2 Diabetes in West Africans",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ghana",
+                        "excerpt": "locations.country = Ghana"
+                    },
+                    {
+                        "nct_id": "NCT06927271",
+                        "title": "Effectiveness of Phone Call and Video-based Interventions to Improve Adherence to Medications in Hypertensive Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ghana",
+                        "excerpt": "locations.country = Ghana"
+                    }
+                ]
+            },
+            {
+                "country": "Indonesia",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT07064486",
+                        "title": "A Study of BGM0504 in Participants With Type 2 Diabetes in Indonesia",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Indonesia",
+                        "excerpt": "locations.country = Indonesia"
+                    },
+                    {
+                        "nct_id": "NCT06903546",
+                        "title": "The Effect of Propolis Administration on Cholesterol Level in Diabetic Type 2 Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Indonesia",
+                        "excerpt": "locations.country = Indonesia"
+                    }
+                ]
+            },
+            {
+                "country": "Iraq",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT06547970",
+                        "title": "Pharmacist Led Educational Intervention on QOL, Medication Adherence & Satisfaction on Patients With Type 1 DM",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Iraq",
+                        "excerpt": "locations.country = Iraq"
+                    },
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Iraq",
+                        "excerpt": "locations.country = Iraq"
+                    }
+                ]
+            },
+            {
+                "country": "Kazakhstan",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT06953180",
+                        "title": "Epigenetics and NCD Prevention in Kazakhstan: Personalized Approaches and Biological Age Prediction",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Kazakhstan",
+                        "excerpt": "locations.country = Kazakhstan"
+                    },
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Kazakhstan",
+                        "excerpt": "locations.country = Kazakhstan"
+                    }
+                ]
+            },
+            {
+                "country": "Kenya",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT05164263",
+                        "title": "Real World Safety & Efficacy Experience of Empagliflozin With or Without Metformin in T2DM Patients - EASE Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Kenya",
+                        "excerpt": "locations.country = Kenya"
+                    },
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Kenya",
+                        "excerpt": "locations.country = Kenya"
+                    }
+                ]
+            },
+            {
+                "country": "Lithuania",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT07187531",
+                        "title": "SAFety and Efficacy of Human Anti-thymocyte ImmunoGlobUlin SAB-142 ARresting Progression of Type 1 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Lithuania",
+                        "excerpt": "locations.country = Lithuania"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Lithuania",
+                        "excerpt": "locations.country = Lithuania"
+                    }
+                ]
+            },
+            {
+                "country": "Serbia",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT06775028",
+                        "title": "Integrated Approach in Frail Older People with Atrial Fibrillation",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Serbia",
+                        "excerpt": "locations.country = Serbia"
+                    },
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Serbia",
+                        "excerpt": "locations.country = Serbia"
+                    }
+                ]
+            },
+            {
+                "country": "South Africa",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "South Africa",
+                        "excerpt": "locations.country = South Africa"
+                    },
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "South Africa",
+                        "excerpt": "locations.country = South Africa"
+                    }
+                ]
+            },
+            {
+                "country": "Sri Lanka",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT05164263",
+                        "title": "Real World Safety & Efficacy Experience of Empagliflozin With or Without Metformin in T2DM Patients - EASE Study",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Sri Lanka",
+                        "excerpt": "locations.country = Sri Lanka"
+                    },
+                    {
+                        "nct_id": "NCT05345327",
+                        "title": "SGLT2 Inhibitors As First Line Therapy to Prevent Renal Decline in Type 2 Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Sri Lanka",
+                        "excerpt": "locations.country = Sri Lanka"
+                    }
+                ]
+            },
+            {
+                "country": "Ukraine",
+                "trial_count": 2,
+                "citations": [
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ukraine",
+                        "excerpt": "locations.country = Ukraine"
+                    },
+                    {
+                        "nct_id": "NCT07222332",
+                        "title": "A Study of Baricitinib (LY3009104) to Preserve Beta Cell Function in Children and Adults Newly Diagnosed With Type 1 Diabetes (BARICADE-PRESERVE)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Ukraine",
+                        "excerpt": "locations.country = Ukraine"
+                    }
+                ]
+            },
+            {
+                "country": "Bahrain",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT06069258",
+                        "title": "Movement Behaviours Among Bahraini Diabetics",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Bahrain",
+                        "excerpt": "locations.country = Bahrain"
+                    }
+                ]
+            },
+            {
+                "country": "Brunei",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT06810986",
+                        "title": "Cohort Study Evaluating Glycaemic Control in Individuals with Type 2 Diabetes Mellitus Through Digital Therapeutics (DM DTx)",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Brunei",
+                        "excerpt": "locations.country = Brunei"
+                    }
+                ]
+            },
+            {
+                "country": "Côte d’Ivoire",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT03549754",
+                        "title": "iCaReMe Global Registry",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Côte d’Ivoire",
+                        "excerpt": "locations.country = Côte d’Ivoire"
+                    }
+                ]
+            },
+            {
+                "country": "Georgia",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT05369065",
+                        "title": "Ablation of Arteries for the Treatment of Type 2 Diabetes Mellitus and Its Comorbidities",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Georgia",
+                        "excerpt": "locations.country = Georgia"
+                    }
+                ]
+            },
+            {
+                "country": "Greenland",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT06264427",
+                        "title": "Phenotypic and Genotypic Characterization of Patients With Dysmetabolism in Greenland",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Greenland",
+                        "excerpt": "locations.country = Greenland"
+                    }
+                ]
+            },
+            {
+                "country": "Guadeloupe",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT07018180",
+                        "title": "Interventional Clinical Trial Evaluating COVER PATCH CAPTEUR PROTECT Support Solutions for Continuous Glucose Monitoring Sensors in Patients With Diabetes",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Guadeloupe",
+                        "excerpt": "locations.country = Guadeloupe"
+                    }
+                ]
+            },
+            {
+                "country": "Iran",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT07188337",
+                        "title": "Characteristics of Diabetic Foot Ulcer Patients",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Iran",
+                        "excerpt": "locations.country = Iran"
+                    }
+                ]
+            },
+            {
+                "country": "Latvia",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Latvia",
+                        "excerpt": "locations.country = Latvia"
+                    }
+                ]
+            },
+            {
+                "country": "Panama",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT05363761",
+                        "title": "Arterial Ablation for the Treatment of Type 2 Diabetes Mellitus and Its Comorbidities",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Panama",
+                        "excerpt": "locations.country = Panama"
+                    }
+                ]
+            },
+            {
+                "country": "Paraguay",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT05363761",
+                        "title": "Arterial Ablation for the Treatment of Type 2 Diabetes Mellitus and Its Comorbidities",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Paraguay",
+                        "excerpt": "locations.country = Paraguay"
+                    }
+                ]
+            },
+            {
+                "country": "Philippines",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT07064473",
+                        "title": "EASi-PROTKT™ - A Study to Test Vicadrostat (BI 690517) Taken Together With Empagliflozin in People With Type 2 Diabetes, High Blood Pressure, and Cardiovascular Disease",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Philippines",
+                        "excerpt": "locations.country = Philippines"
+                    }
+                ]
+            },
+            {
+                "country": "Tanzania",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT05881447",
+                        "title": "Prevalence, Incidence and Risk Signature of Chronic Kidney Disease in Sub-Saharan Africa",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Tanzania",
+                        "excerpt": "locations.country = Tanzania"
+                    }
+                ]
+            },
+            {
+                "country": "Tunisia",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT05605704",
+                        "title": "Olive Leaf Extracts in the Control of Diabet",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Tunisia",
+                        "excerpt": "locations.country = Tunisia"
+                    }
+                ]
+            },
+            {
+                "country": "Uzbekistan",
+                "trial_count": 1,
+                "citations": [
+                    {
+                        "nct_id": "NCT07234864",
+                        "title": "Study to Assess Safety, Tolerability, PK, and PD of Multiple Doses of ZE63-0302 Administrated Orally in T2DM Patients.",
+                        "field_path": "protocolSection.contactsLocationsModule.locations.country",
+                        "field_value": "Uzbekistan",
+                        "excerpt": "locations.country = Uzbekistan"
+                    }
+                ]
+            }
+        ],
+        "render_hints": null
+    },
+    "meta": {
+        "query_interpretation": "Identify which countries have the most recruiting trials for diabetes",
+        "filters_applied": {
+            "status": [
+                "RECRUITING"
+            ]
+        },
+        "match_mode": "broad",
+        "total_studies_matched": 2004,
+        "studies_analyzed": 1579,
+        "data_source": "clinicaltrials.gov",
+        "api_version": "2.0.5",
+        "data_timestamp": "2026-04-03T09:00:05",
+        "warnings": [],
+        "processing_time_ms": 1677
+    }
+}

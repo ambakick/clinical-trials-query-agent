@@ -1,0 +1,31 @@
+{
+  "visualization": {
+    "type": "scatter_plot",
+    "title": "Enrollment vs Duration",
+    "description": "Each point represents one study with enrollment count plotted against duration in months.",
+    "encoding": {
+      "x": { "field": "enrollment_count", "type": "quantitative", "title": "Enrollment" },
+      "y": { "field": "duration_months", "type": "quantitative", "title": "Duration (Months)" }
+    },
+    "data": [
+      {
+        "nct_id": "NCT01281124",
+        "title": "Lung Cancer Study",
+        "enrollment_count": 120,
+        "duration_months": 14,
+        "citations": []
+      }
+    ]
+  },
+  "meta": {
+    "query_interpretation": "Plot study enrollment against study duration",
+    "filters_applied": { "condition": "Lung cancer", "trial_phase": ["PHASE3"] },
+    "match_mode": "broad",
+    "total_studies_matched": 120,
+    "studies_analyzed": 85,
+    "data_source": "clinicaltrials.gov",
+    "api_version": "2.0.5",
+    "data_timestamp": "2026-04-03T09:00:05",
+    "warnings": []
+  }
+}

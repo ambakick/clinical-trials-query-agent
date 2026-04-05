@@ -1,0 +1,329 @@
+{
+    "visualization": {
+        "type": "bar_chart",
+        "title": "Trials by Phase",
+        "description": null,
+        "encoding": {
+            "x": {
+                "field": "category",
+                "type": "nominal",
+                "title": "Phase",
+                "sort": null,
+                "format": null
+            },
+            "y": {
+                "field": "trial_count",
+                "type": "quantitative",
+                "title": "Trials",
+                "sort": null,
+                "format": null
+            }
+        },
+        "data": [
+            {
+                "category": "Phase 2",
+                "trial_count": 764,
+                "citations": [
+                    {
+                        "nct_id": "NCT05468242",
+                        "title": "Study of Tislelizumab for Locally Advanced Non-Small Cell Lung Cancer Following Neoadjuvant Chemotherapy Plus Tislelizumab ± Bevacizumab and Definitive Concurrent Chemoradiation Therapy",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE2",
+                        "excerpt": "phases includes PHASE2"
+                    },
+                    {
+                        "nct_id": "NCT06406673",
+                        "title": "A Phase II Clinical Study of Cadonilimab in Treatment-naïve or Relapsed Extensive Small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE2",
+                        "excerpt": "phases includes PHASE2"
+                    },
+                    {
+                        "nct_id": "NCT03612154",
+                        "title": "Study of Lorlatinib in ROS1 Rearranged NSCLC",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE2",
+                        "excerpt": "phases includes PHASE2"
+                    },
+                    {
+                        "nct_id": "NCT05468294",
+                        "title": "F16IL2 in Combination With Nivolumab in Patients With Non-small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE2",
+                        "excerpt": "phases includes PHASE2"
+                    },
+                    {
+                        "nct_id": "NCT00520845",
+                        "title": "Celecoxib and Docetaxel or Pemetrexed in Treating Patients With Advanced Recurrent Non-Small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE2",
+                        "excerpt": "phases includes PHASE2"
+                    }
+                ]
+            },
+            {
+                "category": "Phase 1",
+                "trial_count": 469,
+                "citations": [
+                    {
+                        "nct_id": "NCT03546361",
+                        "title": "CCL21-Gene Modified Dendritic Cell Vaccine and Pembrolizumab in Treating Patients With Stage IV Non-small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE1",
+                        "excerpt": "phases includes PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT04849273",
+                        "title": "A Study of TPX-0131, a Novel Oral ALK Tyrosine Kinase Inhibitor, in Patients With ALK+ Advanced or Metastatic NSCLC",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE1",
+                        "excerpt": "phases includes PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT05468294",
+                        "title": "F16IL2 in Combination With Nivolumab in Patients With Non-small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE1",
+                        "excerpt": "phases includes PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT01967095",
+                        "title": "Low Dose Daily Erlotinib in Combination With High Dose Twice Weekly Erlotinib in Patients With EGFR-Mutant Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE1",
+                        "excerpt": "phases includes PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT00856427",
+                        "title": "Implantation of Markers for the Radiotherapy of Lung Cancer Patients",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE1",
+                        "excerpt": "phases includes PHASE1"
+                    }
+                ]
+            },
+            {
+                "category": "Unknown",
+                "trial_count": 422,
+                "citations": [
+                    {
+                        "nct_id": "NCT06183762",
+                        "title": "A Real-World Study of Treatment Patterns and Effectiveness in MET Mutation-Positive Advanced Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "Unknown",
+                        "excerpt": "phases includes Unknown"
+                    },
+                    {
+                        "nct_id": "NCT04759651",
+                        "title": "Sleep Disorders in Patients With Suspected Lung Cancer Before and After Thoracic Surgery",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "Unknown",
+                        "excerpt": "phases includes Unknown"
+                    },
+                    {
+                        "nct_id": "NCT02827357",
+                        "title": "Responses to Chemotherapy of Patients With Non-small Cell Lung Cancer Harboring a Known Somatic Activating HER2 Mutation",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "Unknown",
+                        "excerpt": "phases includes Unknown"
+                    },
+                    {
+                        "nct_id": "NCT01297101",
+                        "title": "Evaluating Efficacy and Safety of Erlotinib Versus Gemcitabine Plus Cisplatin as Neoadjuvant Chemotherapy",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "Unknown",
+                        "excerpt": "phases includes Unknown"
+                    },
+                    {
+                        "nct_id": "NCT06007261",
+                        "title": "Validation of Rapid On-site Diagnostics in Early Stage Lung Cancer Sampling With a Higher Harmonic Generation Microscope",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "Unknown",
+                        "excerpt": "phases includes Unknown"
+                    }
+                ]
+            },
+            {
+                "category": "N/A",
+                "trial_count": 318,
+                "citations": [
+                    {
+                        "nct_id": "NCT06360822",
+                        "title": "Increasing Equity in Lung Cancer Screening",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "NA",
+                        "excerpt": "phases includes NA"
+                    },
+                    {
+                        "nct_id": "NCT01004601",
+                        "title": "Low Dose Weekly Docetaxel Versus Pemetrexed in Previously Treated Advanced Non-Small-Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "NA",
+                        "excerpt": "phases includes NA"
+                    },
+                    {
+                        "nct_id": "NCT04175769",
+                        "title": "A Nutritional Supplement to Support People With Non-small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "NA",
+                        "excerpt": "phases includes NA"
+                    },
+                    {
+                        "nct_id": "NCT07451756",
+                        "title": "Effects of Pranayama Breathing Technique on Stress Level, Sleep Quality, and Quality of Life Among Older Adults",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "NA",
+                        "excerpt": "phases includes NA"
+                    },
+                    {
+                        "nct_id": "NCT01188486",
+                        "title": "Pulmonary Interstitial Lymphography in Early Stage Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "NA",
+                        "excerpt": "phases includes NA"
+                    }
+                ]
+            },
+            {
+                "category": "Phase 3",
+                "trial_count": 168,
+                "citations": [
+                    {
+                        "nct_id": "NCT07063745",
+                        "title": "A Study to Compare the Combination of BMS-986504 With Pembrolizumab and Chemotherapy Versus Placebo Plus Pembrolizumab and Chemotherapy in First-line Metastatic Non-small Cell Lung Cancer Participants With Homozygous MTAP Deletion",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE3",
+                        "excerpt": "phases includes PHASE3"
+                    },
+                    {
+                        "nct_id": "NCT06043973",
+                        "title": "Almonertinib Combined With Anlotinib as First-line Treatment for Advanced Non-small Cell Lung Cance",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE3",
+                        "excerpt": "phases includes PHASE3"
+                    },
+                    {
+                        "nct_id": "NCT00874419",
+                        "title": "Erlotinib Versus Gemcitabine/Carboplatin in Chemo-naive Stage IIIB/IV Non-Small Cell Lung Cancer Patients With Epidermal Growth Factor Receptor (EGFR) Exon 19 or 21 Mutation",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE3",
+                        "excerpt": "phases includes PHASE3"
+                    },
+                    {
+                        "nct_id": "NCT07222566",
+                        "title": "A Study to Learn About the Study Medicine Called PF-08634404 in Combination With Chemotherapy in Adult Participants With Locally Advanced or Metastatic Non-Small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE3",
+                        "excerpt": "phases includes PHASE3"
+                    },
+                    {
+                        "nct_id": "NCT00172042",
+                        "title": "A Study to Evaluate the Safety and Efficacy of Zoledronic Acid in the Prevention or Delaying of Bone Metastasis in Patients With Stage IIIA and IIIB Non-small Cell Lung Cancer (NSCLC)",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE3",
+                        "excerpt": "phases includes PHASE3"
+                    }
+                ]
+            },
+            {
+                "category": "Phase 4",
+                "trial_count": 28,
+                "citations": [
+                    {
+                        "nct_id": "NCT06483009",
+                        "title": "Efficacy and Safety of Combination Therapy of Sintilimab and Chemotherapy With Cryoablation in NSCLC",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE4",
+                        "excerpt": "phases includes PHASE4"
+                    },
+                    {
+                        "nct_id": "NCT00277160",
+                        "title": "A Study of Primary Prophylaxis With Neulasta (Pegfilgrastim) Versus Secondary Prophylaxis After Chemotherapy in Elderly Subjects (>/= 65 Years Old) With Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE4",
+                        "excerpt": "phases includes PHASE4"
+                    },
+                    {
+                        "nct_id": "NCT01848613",
+                        "title": "Study of Patient Preference for Oral or Intravenous Vinorelbine in the Treatment of Advanced NSCLC",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE4",
+                        "excerpt": "phases includes PHASE4"
+                    },
+                    {
+                        "nct_id": "NCT01196078",
+                        "title": "A Study of Tarceva (Erlotinib) in Elderly Patients With Advanced Non-Small Cell Lung Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE4",
+                        "excerpt": "phases includes PHASE4"
+                    },
+                    {
+                        "nct_id": "NCT05525338",
+                        "title": "Comparison of Standard Dose Alectinib to Alectinib in Adjusted Dose Based on Alectinib Bloodlevels",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "PHASE4",
+                        "excerpt": "phases includes PHASE4"
+                    }
+                ]
+            },
+            {
+                "category": "Early Phase 1",
+                "trial_count": 19,
+                "citations": [
+                    {
+                        "nct_id": "NCT04906746",
+                        "title": "Ruxolitinib for Cancer Cachexia",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "EARLY_PHASE1",
+                        "excerpt": "phases includes EARLY_PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT07235280",
+                        "title": "Testing the Safety of Dapagliflozin Prior to Surgery for the Treatment of Patients With Stage IA Lung Adenocarcinoma",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "EARLY_PHASE1",
+                        "excerpt": "phases includes EARLY_PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT05465590",
+                        "title": "A Phase 1 Study to Evaluate Paclitaxel Conjugated CXC Receptor 4 Antagonist (MB1707) in Patients With Advanced Cancer",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "EARLY_PHASE1",
+                        "excerpt": "phases includes EARLY_PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT06329908",
+                        "title": "DC Combined With ICIs in the Treatment of Advanced Lung Cancer Resistant to ICIs",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "EARLY_PHASE1",
+                        "excerpt": "phases includes EARLY_PHASE1"
+                    },
+                    {
+                        "nct_id": "NCT05039905",
+                        "title": "SLN Detection With Tc-MSA-ICG in Lung Cancer Patients",
+                        "field_path": "protocolSection.designModule.phases",
+                        "field_value": "EARLY_PHASE1",
+                        "excerpt": "phases includes EARLY_PHASE1"
+                    }
+                ]
+            }
+        ],
+        "render_hints": null
+    },
+    "meta": {
+        "query_interpretation": "Show lung cancer trials distributed across phases",
+        "filters_applied": {
+            "top_n": 10
+        },
+        "match_mode": "broad",
+        "total_studies_matched": 13998,
+        "studies_analyzed": 2011,
+        "data_source": "clinicaltrials.gov",
+        "api_version": "2.0.5",
+        "data_timestamp": "2026-04-03T09:00:05",
+        "warnings": [
+            "Results truncated for request: Show lung cancer trials distributed across phases"
+        ],
+        "processing_time_ms": 2737
+    }
+}

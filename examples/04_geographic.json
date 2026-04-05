@@ -1,0 +1,26 @@
+{
+  "visualization": {
+    "type": "bar_chart",
+    "title": "Trials by Country",
+    "encoding": {
+      "x": { "field": "country", "type": "nominal", "title": "Country" },
+      "y": { "field": "trial_count", "type": "quantitative", "title": "Trials" }
+    },
+    "data": [
+      { "country": "United States", "trial_count": 14, "citations": [] },
+      { "country": "China", "trial_count": 9, "citations": [] }
+    ]
+  },
+  "meta": {
+    "query_interpretation": "Count recruiting trials by country",
+    "filters_applied": { "status": ["RECRUITING"] },
+    "match_mode": "broad",
+    "total_studies_matched": 23,
+    "studies_analyzed": 23,
+    "data_source": "clinicaltrials.gov",
+    "api_version": "2.0.5",
+    "data_timestamp": "2026-04-03T09:00:05",
+    "warnings": []
+  }
+}
+

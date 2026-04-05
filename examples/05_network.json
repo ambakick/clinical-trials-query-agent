@@ -1,0 +1,37 @@
+{
+  "visualization": {
+    "type": "network_graph",
+    "title": "Relationship Network",
+    "encoding": {
+      "node_color": { "field": "type", "type": "nominal", "title": "Node Type" },
+      "node_size": { "field": "size", "type": "quantitative", "title": "Frequency" },
+      "edge_weight": { "field": "weight", "type": "quantitative", "title": "Edge Weight" }
+    },
+    "data": {
+      "nodes": [
+        { "id": "sponsor:Merck", "label": "Merck", "type": "sponsor", "size": 8 },
+        { "id": "drug:Pembrolizumab", "label": "Pembrolizumab", "type": "drug", "size": 8 }
+      ],
+      "edges": [
+        {
+          "source": "sponsor:Merck",
+          "target": "drug:Pembrolizumab",
+          "weight": 8,
+          "citations": []
+        }
+      ]
+    }
+  },
+  "meta": {
+    "query_interpretation": "Build sponsor-drug network",
+    "filters_applied": { "condition": "Lung cancer" },
+    "match_mode": "broad",
+    "total_studies_matched": 8,
+    "studies_analyzed": 8,
+    "data_source": "clinicaltrials.gov",
+    "api_version": "2.0.5",
+    "data_timestamp": "2026-04-03T09:00:05",
+    "warnings": []
+  }
+}
+

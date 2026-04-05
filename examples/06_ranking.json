@@ -1,0 +1,26 @@
+{
+  "visualization": {
+    "type": "bar_chart",
+    "title": "Top 5 Sponsors",
+    "encoding": {
+      "x": { "field": "category", "type": "nominal", "title": "Sponsor" },
+      "y": { "field": "trial_count", "type": "quantitative", "title": "Trials" }
+    },
+    "data": [
+      { "category": "Merck", "trial_count": 12, "citations": [] },
+      { "category": "BMS", "trial_count": 11, "citations": [] }
+    ]
+  },
+  "meta": {
+    "query_interpretation": "Rank sponsors by trial count",
+    "filters_applied": { "top_n": 5 },
+    "match_mode": "broad",
+    "total_studies_matched": 23,
+    "studies_analyzed": 23,
+    "data_source": "clinicaltrials.gov",
+    "api_version": "2.0.5",
+    "data_timestamp": "2026-04-03T09:00:05",
+    "warnings": []
+  }
+}
+

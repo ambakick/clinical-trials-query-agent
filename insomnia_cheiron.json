@@ -1,0 +1,799 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-04-04T00:00:00.000Z",
+  "__export_source": "insomnia.desktop",
+  "resources": [
+    {
+      "_id": "wrk_cheiron",
+      "_type": "workspace",
+      "name": "Cheiron",
+      "description": "ClinicalTrials.gov Query-to-Visualization Agent",
+      "scope": "collection",
+      "parentId": null
+    },
+    {
+      "_id": "env_base",
+      "_type": "environment",
+      "name": "Base Environment",
+      "parentId": "wrk_cheiron",
+      "data": {
+        "base_url": "http://localhost:8000"
+      }
+    },
+    {
+      "_id": "fld_core",
+      "_type": "request_group",
+      "name": "1. Core Query Classes",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_filters",
+      "_type": "request_group",
+      "name": "2. Filter Combinations",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_recall",
+      "_type": "request_group",
+      "name": "3. Broad vs Exact Recall",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_ctgov_edge",
+      "_type": "request_group",
+      "name": "4. CT.gov Data Edge Cases",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_citation",
+      "_type": "request_group",
+      "name": "5. Citation Mode",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_empty",
+      "_type": "request_group",
+      "name": "6. Empty Results & Validation",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_clarification",
+      "_type": "request_group",
+      "name": "7. Clarification",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_cache",
+      "_type": "request_group",
+      "name": "8. Caching",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_network",
+      "_type": "request_group",
+      "name": "9. Network Graph",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_hints",
+      "_type": "request_group",
+      "name": "10. Structured Hints Override",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_endpoints",
+      "_type": "request_group",
+      "name": "11. API Endpoints",
+      "parentId": "wrk_cheiron"
+    },
+    {
+      "_id": "fld_stress",
+      "_type": "request_group",
+      "name": "12. Stress & Boundary",
+      "parentId": "wrk_cheiron"
+    },
+
+    {
+      "_id": "req_1a",
+      "_type": "request",
+      "name": "1a. Time Trend — Pembrolizumab since 2015",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How has the number of trials for Pembrolizumab changed per year since 2015?\",\n  \"drug_name\": \"Pembrolizumab\",\n  \"start_year\": 2015\n}"
+      }
+    },
+    {
+      "_id": "req_1b",
+      "_type": "request",
+      "name": "1b. Distribution — Lung cancer by phase",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How are lung cancer trials distributed across phases?\",\n  \"condition\": \"Lung cancer\"\n}"
+      }
+    },
+    {
+      "_id": "req_1c",
+      "_type": "request",
+      "name": "1c. Comparison — Pembrolizumab vs Nivolumab",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Compare phases for Pembrolizumab vs Nivolumab trials\"\n}"
+      }
+    },
+    {
+      "_id": "req_1d",
+      "_type": "request",
+      "name": "1d. Geographic — Recruiting diabetes trials by country",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Which countries have the most recruiting trials for diabetes?\",\n  \"condition\": \"Diabetes\",\n  \"status\": [\"RECRUITING\"]\n}"
+      }
+    },
+    {
+      "_id": "req_1e",
+      "_type": "request",
+      "name": "1e. Network — Sponsor-drug for breast cancer",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show a network of sponsors and drugs for breast cancer trials\",\n  \"condition\": \"Breast cancer\"\n}"
+      }
+    },
+    {
+      "_id": "req_1f",
+      "_type": "request",
+      "name": "1f. Network — Drug-drug co-occurrence",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Which drugs frequently co-occur in combination lung cancer studies?\",\n  \"condition\": \"Lung cancer\"\n}"
+      }
+    },
+    {
+      "_id": "req_1g",
+      "_type": "request",
+      "name": "1g. Ranking — Top 10 melanoma sponsors",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Top 10 sponsors by number of completed melanoma trials\",\n  \"condition\": \"Melanoma\",\n  \"status\": [\"COMPLETED\"]\n}"
+      }
+    },
+    {
+      "_id": "req_1h",
+      "_type": "request",
+      "name": "1h. Distribution — Intervention types for diabetes",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"What are the most common intervention types for diabetes trials?\",\n  \"condition\": \"Diabetes\"\n}"
+      }
+    },
+    {
+      "_id": "req_1i",
+      "_type": "request",
+      "name": "1i. Distribution — Status breakdown for Pembrolizumab",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_core",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"What is the status breakdown of Pembrolizumab trials?\",\n  \"drug_name\": \"Pembrolizumab\"\n}"
+      }
+    },
+
+    {
+      "_id": "req_2a",
+      "_type": "request",
+      "name": "2a. Phase filter only (AREA[Phase] in filter.advanced)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How many Phase 3 cancer trials started each year?\",\n  \"condition\": \"Cancer\",\n  \"trial_phase\": [\"PHASE3\"]\n}"
+      }
+    },
+    {
+      "_id": "req_2b",
+      "_type": "request",
+      "name": "2b. Phase + date range (AND in filter.advanced)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show Phase 3 lung cancer trials since 2018\",\n  \"condition\": \"Lung cancer\",\n  \"trial_phase\": [\"PHASE3\"],\n  \"start_year\": 2018\n}"
+      }
+    },
+    {
+      "_id": "req_2c",
+      "_type": "request",
+      "name": "2c. Multiple phases",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Distribution of early-phase lung cancer trials\",\n  \"condition\": \"Lung cancer\",\n  \"trial_phase\": [\"PHASE1\", \"PHASE2\"]\n}"
+      }
+    },
+    {
+      "_id": "req_2d",
+      "_type": "request",
+      "name": "2d. Multiple statuses (comma-separated)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How are recruiting and active lung cancer trials distributed by phase?\",\n  \"condition\": \"Lung cancer\",\n  \"status\": [\"RECRUITING\", \"ACTIVE_NOT_RECRUITING\"]\n}"
+      }
+    },
+    {
+      "_id": "req_2e",
+      "_type": "request",
+      "name": "2e. Country filter",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show phase distribution for cancer trials in United States\",\n  \"condition\": \"Cancer\",\n  \"country\": \"United States\"\n}"
+      }
+    },
+    {
+      "_id": "req_2f",
+      "_type": "request",
+      "name": "2f. End year only",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How many melanoma trials started each year before 2015?\",\n  \"condition\": \"Melanoma\",\n  \"end_year\": 2014\n}"
+      }
+    },
+    {
+      "_id": "req_2g",
+      "_type": "request",
+      "name": "2g. All filters combined",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase 3 recruiting lung cancer trials in United States since 2020\",\n  \"condition\": \"Lung cancer\",\n  \"trial_phase\": [\"PHASE3\"],\n  \"status\": [\"RECRUITING\"],\n  \"country\": \"United States\",\n  \"start_year\": 2020\n}"
+      }
+    },
+    {
+      "_id": "req_2h",
+      "_type": "request",
+      "name": "2h. Sponsor filter",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_filters",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How many trials has Pfizer run per year since 2015?\",\n  \"sponsor\": \"Pfizer\",\n  \"start_year\": 2015\n}"
+      }
+    },
+
+    {
+      "_id": "req_3a",
+      "_type": "request",
+      "name": "3a. Broad — breast cancer (MeSH mismatch risk)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_recall",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How are breast cancer trials distributed across phases?\",\n  \"condition\": \"Breast cancer\"\n}"
+      }
+    },
+    {
+      "_id": "req_3b",
+      "_type": "request",
+      "name": "3b. Broad — melanoma (exact CT.gov name)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_recall",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How are melanoma trials distributed across phases?\",\n  \"condition\": \"Melanoma\"\n}"
+      }
+    },
+    {
+      "_id": "req_3c",
+      "_type": "request",
+      "name": "3c. Brand name drug — Keytruda",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_recall",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show phase distribution for Keytruda trials\"\n}"
+      }
+    },
+    {
+      "_id": "req_3d",
+      "_type": "request",
+      "name": "3d. Generic condition — cancer",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_recall",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Distribution of cancer trials by phase\",\n  \"condition\": \"Cancer\"\n}"
+      }
+    },
+
+    {
+      "_id": "req_4a",
+      "_type": "request",
+      "name": "4a. Observational studies (no phases) — COVID-19",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_ctgov_edge",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How are COVID-19 trials distributed across phases?\",\n  \"condition\": \"COVID-19\"\n}"
+      }
+    },
+    {
+      "_id": "req_4b",
+      "_type": "request",
+      "name": "4b. Combination phases — HIV vaccine",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_ctgov_edge",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show phase distribution for HIV vaccine trials\",\n  \"condition\": \"HIV\"\n}"
+      }
+    },
+    {
+      "_id": "req_4c",
+      "_type": "request",
+      "name": "4c. Partial dates — Alzheimer since 2000",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_ctgov_edge",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How many Alzheimer trials started each year since 2000?\",\n  \"condition\": \"Alzheimer\",\n  \"start_year\": 2000\n}"
+      }
+    },
+    {
+      "_id": "req_4d",
+      "_type": "request",
+      "name": "4d. Many locations (geographic dedup)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_ctgov_edge",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Which countries have the most cancer trials?\",\n  \"condition\": \"Cancer\"\n}"
+      }
+    },
+    {
+      "_id": "req_4e",
+      "_type": "request",
+      "name": "4e. Sponsor class grouping",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_ctgov_edge",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Compare sponsor categories for lung cancer trials (industry vs NIH vs academic)\",\n  \"condition\": \"Lung cancer\"\n}"
+      }
+    },
+
+    {
+      "_id": "req_5a",
+      "_type": "request",
+      "name": "5a. Citation mode — deep (default)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_citation",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for melanoma\",\n  \"condition\": \"Melanoma\",\n  \"citation_mode\": \"deep\"\n}"
+      }
+    },
+    {
+      "_id": "req_5b",
+      "_type": "request",
+      "name": "5b. Citation mode — none",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_citation",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for melanoma\",\n  \"condition\": \"Melanoma\",\n  \"citation_mode\": \"none\"\n}"
+      }
+    },
+    {
+      "_id": "req_5c",
+      "_type": "request",
+      "name": "5c. Citation mode — sample",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_citation",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for melanoma\",\n  \"condition\": \"Melanoma\",\n  \"citation_mode\": \"sample\"\n}"
+      }
+    },
+
+    {
+      "_id": "req_6a",
+      "_type": "request",
+      "name": "6a. Zero results — fake drug",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_empty",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show trials for Xyzzyplatin\",\n  \"drug_name\": \"Xyzzyplatin\"\n}"
+      }
+    },
+    {
+      "_id": "req_6b",
+      "_type": "request",
+      "name": "6b. Zero results — impossible filter combo",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_empty",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase 4 Pembrolizumab trials in Antarctica since 2025\",\n  \"drug_name\": \"Pembrolizumab\",\n  \"trial_phase\": [\"PHASE4\"],\n  \"country\": \"Antarctica\",\n  \"start_year\": 2025\n}"
+      }
+    },
+    {
+      "_id": "req_6c",
+      "_type": "request",
+      "name": "6c. Validation — query too short",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_empty",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"hi\"\n}"
+      }
+    },
+    {
+      "_id": "req_6d",
+      "_type": "request",
+      "name": "6d. Validation — invalid year order",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_empty",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show melanoma trials\",\n  \"start_year\": 2025,\n  \"end_year\": 2020\n}"
+      }
+    },
+    {
+      "_id": "req_6e",
+      "_type": "request",
+      "name": "6e. Validation — invalid phase enum",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_empty",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show trials\",\n  \"trial_phase\": [\"PHASE99\"]\n}"
+      }
+    },
+    {
+      "_id": "req_6f",
+      "_type": "request",
+      "name": "6f. Minimal fetch — max_results=1",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_empty",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for cancer\",\n  \"condition\": \"Cancer\",\n  \"max_results\": 1\n}"
+      }
+    },
+    {
+      "_id": "req_6g",
+      "_type": "request",
+      "name": "6g. Validation — invalid JSON body",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_empty",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "not json"
+      }
+    },
+
+    {
+      "_id": "req_7a",
+      "_type": "request",
+      "name": "7a. Ambiguous — compare the drugs",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_clarification",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Compare the drugs\"\n}"
+      }
+    },
+    {
+      "_id": "req_7b",
+      "_type": "request",
+      "name": "7b. Ambiguous — show me everything",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_clarification",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show me everything\"\n}"
+      }
+    },
+
+    {
+      "_id": "req_8a",
+      "_type": "request",
+      "name": "8a. Cache test — first call (slow)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_cache",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for melanoma\",\n  \"condition\": \"Melanoma\"\n}"
+      }
+    },
+    {
+      "_id": "req_8b",
+      "_type": "request",
+      "name": "8b. Cache test — repeat call (fast)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_cache",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for melanoma\",\n  \"condition\": \"Melanoma\"\n}"
+      }
+    },
+    {
+      "_id": "req_8c",
+      "_type": "request",
+      "name": "8c. Cache miss — different citation_mode",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_cache",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for melanoma\",\n  \"condition\": \"Melanoma\",\n  \"citation_mode\": \"none\"\n}"
+      }
+    },
+
+    {
+      "_id": "req_9a",
+      "_type": "request",
+      "name": "9a. Network — sponsor-condition",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_network",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show a network of sponsors and conditions for completed Phase 3 trials\",\n  \"status\": [\"COMPLETED\"],\n  \"trial_phase\": [\"PHASE3\"]\n}"
+      }
+    },
+    {
+      "_id": "req_9b",
+      "_type": "request",
+      "name": "9b. Network — large with pruning (cancer)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_network",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show a sponsor to drug network for all cancer trials\",\n  \"condition\": \"Cancer\"\n}"
+      }
+    },
+    {
+      "_id": "req_9c",
+      "_type": "request",
+      "name": "9c. Network — small, no pruning expected",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_network",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show drug co-occurrence network for Pembrolizumab trials\",\n  \"drug_name\": \"Pembrolizumab\"\n}"
+      }
+    },
+
+    {
+      "_id": "req_10a",
+      "_type": "request",
+      "name": "10a. Hint overrides query — condition mismatch",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_hints",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show phase distribution for lung cancer trials\",\n  \"condition\": \"Breast cancer\"\n}"
+      }
+    },
+    {
+      "_id": "req_10b",
+      "_type": "request",
+      "name": "10b. Hint provides drug_name for vague query",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_hints",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"How many trials per year for this drug?\",\n  \"drug_name\": \"Trastuzumab\",\n  \"start_year\": 2010\n}"
+      }
+    },
+
+    {
+      "_id": "req_11a",
+      "_type": "request",
+      "name": "11a. Health check",
+      "method": "GET",
+      "url": "{{ _.base_url }}/api/v1/health",
+      "parentId": "fld_endpoints",
+      "headers": [],
+      "body": {}
+    },
+    {
+      "_id": "req_11b",
+      "_type": "request",
+      "name": "11b. Input schema",
+      "method": "GET",
+      "url": "{{ _.base_url }}/api/v1/schema/input",
+      "parentId": "fld_endpoints",
+      "headers": [],
+      "body": {}
+    },
+    {
+      "_id": "req_11c",
+      "_type": "request",
+      "name": "11c. Output schema",
+      "method": "GET",
+      "url": "{{ _.base_url }}/api/v1/schema/output",
+      "parentId": "fld_endpoints",
+      "headers": [],
+      "body": {}
+    },
+    {
+      "_id": "req_11d",
+      "_type": "request",
+      "name": "11d. Wrong HTTP method on query",
+      "method": "GET",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_endpoints",
+      "headers": [],
+      "body": {}
+    },
+
+    {
+      "_id": "req_12a",
+      "_type": "request",
+      "name": "12a. max_results at upper bound (10000)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_stress",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for cancer\",\n  \"condition\": \"Cancer\",\n  \"max_results\": 10000\n}"
+      }
+    },
+    {
+      "_id": "req_12b",
+      "_type": "request",
+      "name": "12b. max_results=1 (minimal)",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_stress",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Phase distribution for cancer\",\n  \"condition\": \"Cancer\",\n  \"max_results\": 1\n}"
+      }
+    },
+    {
+      "_id": "req_12c",
+      "_type": "request",
+      "name": "12c. Comparison — sponsor categories across conditions",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_stress",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Compare sponsor categories across lung cancer and melanoma\"\n}"
+      }
+    },
+    {
+      "_id": "req_12d",
+      "_type": "request",
+      "name": "12d. Very specific — rare disease",
+      "method": "POST",
+      "url": "{{ _.base_url }}/api/v1/query",
+      "parentId": "fld_stress",
+      "headers": [{"name": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"query\": \"Show phase distribution for Erdheim-Chester disease trials\",\n  \"condition\": \"Erdheim-Chester disease\"\n}"
+      }
+    }
+  ]
+}
