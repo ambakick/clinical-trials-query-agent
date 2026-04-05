@@ -4,7 +4,7 @@ Backend service that converts natural-language clinical trial questions into str
 
 ## Demo video: [https://youtu.be/YLnxIQ7P8ck](https://youtu.be/YLnxIQ7P8ck)
 
-Real example outputs produced by the backend are available in real_outputs folder in the repo
+Real example outputs produced by the backend are available in `real_outputs` folder in the repo
 
 ## Architecture
 
