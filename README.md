@@ -493,16 +493,6 @@ pytest
 - Exact vs broad semantics are implemented for supported cases only
 - Some advanced CT.gov filters are intentionally not exposed in v1
 
-## What I would improve with more time
-
-- Add a multi-step agent path with controlled re-planning when the first compiled query returns empty or clearly off-target results
-- Add histogram support for distributions such as enrollment counts, study durations, or bucketed trial sizes
-- Add streaming responses over SSE or WebSocket for large paginated queries so the frontend can show progress and partial status
-- Add semantic caching for near-duplicate natural-language queries while keeping `dataTimestamp`-based invalidation for factual freshness
-- Add an optional Vega-Lite export mode alongside the custom visualization DSL for interoperability with generic charting clients
-- Expand the frontend demo renderer with richer interactions, responsive network layout controls, and downloadable chart snapshots
-- Improve citation quality with richer excerpts pulled from brief titles, descriptions, and more specific field/value context
-
 ## Validation and tools used
 
 Tools used:
@@ -519,9 +509,3 @@ How correctness was validated:
 - Additional frontend fixture/component tests validate that the renderer layer can consume real backend payloads from `real_outputs` folder without guessing schema details
 - All key CT.gov API parameter choices were validated against the live API before implementation, including supported field shorthands, `filter.advanced` syntax, `filter.overallStatus` separators, pagination behavior, and version metadata handling
 - The repository is validated with `pytest -q`, `frontend/npm test`, and `frontend/npm run build`
-
-What was designed deliberately vs AI-assisted:
-
-- The hybrid architecture itself was a deliberate design choice: `AnalysisPlan -> Compiler -> FetchPlan -> CT.gov client -> canonical normalization -> deterministic processors`
-- The compiler boundary separating LLM intent from API execution, the canonical normalization model, the cache invalidation strategy using `dataTimestamp`, and the anti-hallucination constraints were also designed deliberately
-- Processor implementations, test scaffolding, fixture wiring, boilerplate models, Docker assets, and parts of the frontend demo were AI-assisted, then manually reviewed, corrected, and iterated based on live API behavior and test results
